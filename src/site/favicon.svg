@@ -1,12 +1,12 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
-	<title>favicon-svg</title>
+	<title>mcl-logo</title>
 	<style>
 		.s0 { fill: #00ffff;stroke: #000000;stroke-miterlimit:100;stroke-width: 2 } 
 	</style>
 	<g id="outline">
-		<path id="footer" class="s0" d="m3 58c0-2.2 1.8-4 4-4h58c2.2 0 4 1.8 4 4v7c0 2.2-1.8 4-4 4h-58c-2.2 0-4-1.8-4-4z"/>
-		<path id="right down" class="s0" d="m31 33c0-2.2 1.8-4 4-4h30c2.2 0 4 1.8 4 4v14c0 2.2-1.8 4-4 4h-30c-2.2 0-4-1.8-4-4z"/>
-		<path id="right up" class="s0" d="m31 8c0-2.2 1.8-4 4-4h30c2.2 0 4 1.8 4 4v14c0 2.2-1.8 4-4 4h-30c-2.2 0-4-1.8-4-4z"/>
-		<path id="left side" class="s0" d="m3 8c0-2.2 1.8-4 4-4h17c2.2 0 4 1.8 4 4v39c0 2.2-1.8 4-4 4h-17c-2.2 0-4-1.8-4-4z"/>
+		<path id="footer" class="s0" d="m3 54c0-2.2 1.8-4 4-4h58c2.2 0 4 1.8 4 4v10c0 2.2-1.8 4-4 4h-58c-2.2 0-4-1.8-4-4z"/>
+		<path id="right bottom" class="s0" d="m27 31c0-2.2 1.8-4 4-4h34c2.2 0 4 1.8 4 4v11c0 2.2-1.8 4-4 4h-34c-2.2 0-4-1.8-4-4z"/>
+		<path id="right above" class="s0" d="m27 8c0-2.2 1.8-4 4-4h34c2.2 0 4 1.8 4 4v11c0 2.2-1.8 4-4 4h-34c-2.2 0-4-1.8-4-4z"/>
+		<path id="left side" class="s0" d="m3 8c0-2.2 1.8-4 4-4h12c2.2 0 4 1.8 4 4v34c0 2.2-1.8 4-4 4h-12c-2.2 0-4-1.8-4-4z"/>
 	</g>
 </svg>
