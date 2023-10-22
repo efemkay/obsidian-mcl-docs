@@ -1,37 +1,12 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
 	<title>favicon-svg</title>
 	<style>
-		.s0 { fill: #ffffff } 
-		.s1 { fill: #ea5a47;stroke: #ea5a47;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
-		.s2 { fill: #ea5a47 } 
-		.s3 { fill: #a57939 } 
-		.s4 { fill: #92d3f5 } 
-		.s5 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
-		.s6 { fill: none;stroke: #000000;stroke-miterlimit:10;stroke-width: 2 } 
-		.s7 { fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 2 } 
+		.s0 { fill: #00ffff;stroke: #000000;stroke-miterlimit:100;stroke-width: 2 } 
 	</style>
-	<g id="color">
-		<path id="Layer" class="s0" d="m37.1 36.1h26.9v18.1h-26.9z"/>
-		<path id="Layer" class="s1" d="m50.2 23.2l-12.1 12.8h25.4z"/>
-		<path id="Layer" class="s2" d="m47.3 26l-6.4 6.1v-8.6c0-0.9 0.8-1.4 1.7-1.4h3c0.9 0 1.7 0.5 1.7 1.4z"/>
-		<path id="Layer" class="s3" d="m43 42h6v12h-6z"/>
-		<path id="Layer" class="s4" d="m54 42h6v5h-6z"/>
-	</g>
-	<g id="hair">
-	</g>
-	<g id="skin">
-	</g>
-	<g id="skin-shadow">
-	</g>
-	<g id="line">
-		<path id="Layer" class="s5" d="m46 27l4.2-4 13.8 12.1v18.9h-26v-12.5"/>
-		<path id="Layer" class="s5" d="m43 42h6v12h-6z"/>
-		<path id="Layer" class="s5" d="m54 42h6v5h-6z"/>
-		<path id="Layer" class="s5" d="m43.5 23h3v3"/>
-		<path id="Layer" class="s6" d=""/>
-		<path id="Layer" class="s5" d="m22.5 54v-7.2l-5-4.8"/>
-		<path id="Layer" class="s5" d="m23 46.7l2.9-2.9"/>
-		<path id="Layer" fill-rule="evenodd" class="s7" d="m41 28.3c0-3.3-3.4-6-7.7-6q-0.5 0-1 0.1c-1.8-3.5-5.8-5.9-10.3-5.9-6.2 0-11.3 4.6-11.3 10.2q0 0.5 0.1 1.1c-2.8 0.9-4.8 3-4.8 5.5 0 3.3 3.4 6 7.7 6 1.6 0 3.2-0.4 4.6-1.2 1.8 1.5 4.7 2.4 8 2.4 5.5 0 10-2.6 10-6q0-0.3-0.1-0.6c2.8-0.9 4.8-3.1 4.8-5.6z"/>
-		<path id="Layer" class="s5" d="m63.5 36h-21"/>
+	<g id="outline">
+		<path id="footer" class="s0" d="m3 58c0-2.2 1.8-4 4-4h58c2.2 0 4 1.8 4 4v7c0 2.2-1.8 4-4 4h-58c-2.2 0-4-1.8-4-4z"/>
+		<path id="right down" class="s0" d="m31 33c0-2.2 1.8-4 4-4h30c2.2 0 4 1.8 4 4v14c0 2.2-1.8 4-4 4h-30c-2.2 0-4-1.8-4-4z"/>
+		<path id="right up" class="s0" d="m31 8c0-2.2 1.8-4 4-4h30c2.2 0 4 1.8 4 4v14c0 2.2-1.8 4-4 4h-30c-2.2 0-4-1.8-4-4z"/>
+		<path id="left side" class="s0" d="m3 8c0-2.2 1.8-4 4-4h17c2.2 0 4 1.8 4 4v39c0 2.2-1.8 4-4 4h-17c-2.2 0-4-1.8-4-4z"/>
 	</g>
 </svg>
