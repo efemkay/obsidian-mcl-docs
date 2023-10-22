@@ -11,3 +11,56 @@ body {
     //   color: black;
     //  }
 }
+
+/* === Layout === */
+    body.markdown-rendered {
+        --page-max-width: 800px;
+        scroll-behavior: smooth;
+        scroll-padding: 5rem;
+        --list-indent: 1.6em;
+    }
+
+    /* -- Left Sidebar -- */
+    body.markdown-rendered .filetree-sidebar { width: 300px; }
+    body.markdown-rendered .content { max-width: var(--page-max-width); }
+    @media (min-width: 1400px) {
+        body.markdown-rendered .content {
+            width: calc((100vw - 300px - 350px - 40px));
+            padding-inline: 0em 1.5em;
+        }
+    }
+
+/* === Minor UI Improvement === */
+    /* -- tighten nav -- */
+    .toc-container nav.toc { padding: 0; }
+    .toc-container nav.toc ol { padding-inline-start: 1em; border-color: var(--background-modifier-border); }
+    .toc-container nav.toc ol:first-of-type { margin-top: 0.5em; }
+    .toc-container nav.toc { font-size: 14px; }
+
+    /* indentation guide for file tree */
+    body.markdown-rendered .folder.inner-folder { position: relative; }
+    body.markdown-rendered .folder.inner-folder::before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 1.2em; bottom: 0;
+        height: calc(100% - 2em);
+        border-left: 1px solid var(--background-modifier-border);
+    }
+    body.markdown-rendered .foldername-wrapper:has(~ div > .active-note) { color: white; }
+
+    /* content mod only. for layout see above */
+    .filetree-note-icon a.filename[data-note-icon]::before { display: none; }
+    .filetree-sidebar { padding-right: 1em; font-size: 14px; }
+
+    /* -- main content -- */
+    main.content { font-size: 16px; }
+
+    /* -- Indentation guide for content for bullets */
+    body.markdown-preview-view ul { position: relative; }
+    body.markdown-preview-view ul ul::before {
+        content: "";
+        position: absolute; margin-left: -0.9em; margin-top: 0;
+        border-left: 1px solid var(--background-modifier-border);
+        top: 0; bottom: 0.4em; left: 0;
+    }
