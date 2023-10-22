@@ -19,6 +19,12 @@ body {
         scroll-padding: 5rem;
         --list-indent: 1.6em;
     }
+    /* mobile */
+    @media (max-width: 600px) {
+        body.markdown-rendered {
+            padding-inline: 1em;
+        }
+    }
 
     /* -- Left Sidebar -- */
     body.markdown-rendered .filetree-sidebar { width: 300px; }
