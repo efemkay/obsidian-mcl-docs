@@ -1,7 +1,7 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
 	<title>mcl-logo</title>
 	<style>
-		.s0 { fill: #00ffff;stroke: #000000;stroke-miterlimit:100;stroke-width: 2 } 
+		.s0 { fill: #E69981;stroke: #000000;stroke-miterlimit:100;stroke-width: 2 } 
 	</style>
 	<g id="outline">
 		<path id="footer" class="s0" d="m3 54c0-2.2 1.8-4 4-4h58c2.2 0 4 1.8 4 4v10c0 2.2-1.8 4-4 4h-58c-2.2 0-4-1.8-4-4z"/>
