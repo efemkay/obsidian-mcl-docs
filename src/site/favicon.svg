@@ -1,27 +1,37 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="216.000000pt" height="219.000000pt" viewBox="0 0 216.000000 219.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.10, written by Peter Selinger 2001-2011
-</metadata>
-<g transform="translate(0.000000,219.000000) scale(0.100000,-0.100000)"
-fill="#2f4f4f" stroke="none">
-<path d="M635 2140 c-148 -30 -265 -85 -367 -175 -60 -54 -147 -163 -178 -224
--77 -153 -82 -208 -78 -727 4 -400 5 -422 26 -484 88 -261 305 -458 562 -512
-79 -17 827 -23 900 -8 188 40 297 99 421 227 77 79 114 133 153 220 54 124 57
-165 54 653 -3 442 -3 445 -27 515 -69 197 -213 363 -393 451 -63 30 -92 39
--203 64 -49 11 -814 11 -870 0z m615 -480 c91 -23 109 -29 165 -55 81 -39 160
--100 175 -135 10 -25 10 -34 -4 -55 -20 -30 -58 -47 -83 -38 -10 4 -44 25 -76
-46 -89 60 -182 94 -293 107 -285 31 -459 -71 -429 -253 10 -58 64 -106 144
--129 48 -14 99 -18 247 -18 179 0 189 -1 211 -22 31 -29 30 -71 -2 -96 -22
--18 -46 -20 -252 -24 -206 -4 -232 -6 -268 -25 -84 -44 -121 -112 -108 -198
-11 -73 56 -122 143 -156 48 -19 75 -22 205 -22 176 -1 254 14 390 74 50 21 96
-39 104 39 25 0 61 -42 61 -70 0 -45 -71 -100 -172 -134 -106 -36 -189 -49
--341 -54 -172 -5 -252 7 -352 53 -127 59 -205 166 -205 283 0 95 63 204 144
-247 20 11 36 25 36 32 0 7 -20 28 -45 47 -61 46 -80 72 -100 134 -31 94 -3
-210 71 292 68 75 181 127 304 140 84 9 276 3 330 -10z"/>
-</g>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
+	<title>favicon-svg</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #ea5a47;stroke: #ea5a47;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+		.s2 { fill: #ea5a47 } 
+		.s3 { fill: #a57939 } 
+		.s4 { fill: #92d3f5 } 
+		.s5 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+		.s6 { fill: none;stroke: #000000;stroke-miterlimit:10;stroke-width: 2 } 
+		.s7 { fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 2 } 
+	</style>
+	<g id="color">
+		<path id="Layer" class="s0" d="m37.1 36.1h26.9v18.1h-26.9z"/>
+		<path id="Layer" class="s1" d="m50.2 23.2l-12.1 12.8h25.4z"/>
+		<path id="Layer" class="s2" d="m47.3 26l-6.4 6.1v-8.6c0-0.9 0.8-1.4 1.7-1.4h3c0.9 0 1.7 0.5 1.7 1.4z"/>
+		<path id="Layer" class="s3" d="m43 42h6v12h-6z"/>
+		<path id="Layer" class="s4" d="m54 42h6v5h-6z"/>
+	</g>
+	<g id="hair">
+	</g>
+	<g id="skin">
+	</g>
+	<g id="skin-shadow">
+	</g>
+	<g id="line">
+		<path id="Layer" class="s5" d="m46 27l4.2-4 13.8 12.1v18.9h-26v-12.5"/>
+		<path id="Layer" class="s5" d="m43 42h6v12h-6z"/>
+		<path id="Layer" class="s5" d="m54 42h6v5h-6z"/>
+		<path id="Layer" class="s5" d="m43.5 23h3v3"/>
+		<path id="Layer" class="s6" d=""/>
+		<path id="Layer" class="s5" d="m22.5 54v-7.2l-5-4.8"/>
+		<path id="Layer" class="s5" d="m23 46.7l2.9-2.9"/>
+		<path id="Layer" fill-rule="evenodd" class="s7" d="m41 28.3c0-3.3-3.4-6-7.7-6q-0.5 0-1 0.1c-1.8-3.5-5.8-5.9-10.3-5.9-6.2 0-11.3 4.6-11.3 10.2q0 0.5 0.1 1.1c-2.8 0.9-4.8 3-4.8 5.5 0 3.3 3.4 6 7.7 6 1.6 0 3.2-0.4 4.6-1.2 1.8 1.5 4.7 2.4 8 2.4 5.5 0 10-2.6 10-6q0-0.3-0.1-0.6c2.8-0.9 4.8-3.1 4.8-5.6z"/>
+		<path id="Layer" class="s5" d="m63.5 36h-21"/>
+	</g>
 </svg>
