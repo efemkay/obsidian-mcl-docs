@@ -15,26 +15,57 @@ body {
 /* === Layout === */
     body.markdown-rendered {
         --page-max-width: 800px;
+        --left-side-width: 280px;
+        --right-side-width: 300px;
+        --both-side-width: calc( var(--left-side-width) + var(--right-side-width));
         scroll-behavior: smooth;
         scroll-padding: 5rem;
         --list-indent: 1.6em;
     }
-    /* mobile */
-    @media (max-width: 600px) {
-        body.markdown-rendered {
-            padding-inline: 1em;
+
+    /* -- non-constrained layout adjustment -- */
+    body.markdown-rendered .filetree-sidebar { width: var(--left-side-width); }
+    body.markdown-rendered .filetree-sidebar > .folder { margin-inline: 0.5em; }
+    body.markdown-rendered .content { max-width: var(--page-max-width); }
+    main.content { margin-top: 50px; }
+    .notelink.active-note { transform: unset; }
+
+    /* loose width range layout adjustment */
+    @media (max-width: 500px) {
+        body.markdown-rendered { padding-inline: calc(var(--file-margins) / 1.6); }
+        main.content.content { font-size: 15px; }
+    }
+    @media (max-width: 980px) {
+        .fullpage-overlay, .filetree-sidebar { top: 50px; }
+    }
+    @media (min-width: 1280px) {
+        .sidebar {
+            position: fixed; display: flex; width: var(--right-side-width); z-index: 3;
+            /* top: 75px; right: 0; height: 100%; */
         }
+        .sidebar-container .toc { display: block; }
     }
 
-    /* -- Left Sidebar -- */
-    body.markdown-rendered .filetree-sidebar { width: 300px; }
-    body.markdown-rendered .content { max-width: var(--page-max-width); }
-    @media (min-width: 1400px) {
-        body.markdown-rendered .content {
-            width: calc((100vw - 300px - 350px - 40px));
-            padding-inline: 0em 1.5em;
-        }
+    /* specific width range layout adjustment */
+    @media (min-width: 980px) and (max-width: 1280px) {
+        main.content { margin-left: var(--left-side-width); }
+        .sidebar { max-width: var(--page-max-width); margin-left: var(--left-side-width); }
     }
+    @media (min-width: 1280px) and (max-width: 1430px) {
+        body.markdown-rendered .content {
+            width: calc((100vw - var(--both-side-width) - 50px));
+            margin-left: var(--left-side-width);
+        }
+        .sidebar-container { flex-direction: column; }
+    }
+    @media (min-width: 1430px) {
+        body.markdown-rendered .filetree-sidebar {
+            width: calc((100vw - var(--page-max-width)) / 2 - var(--file-margins));
+            padding-left: calc((100vw - var(--page-max-width)) / 2 - 22px - var(--left-side-width));
+        }
+        .sidebar { margin-right: calc((100vw - var(--page-max-width) - var(--file-margins)) / 2 - var(--right-side-width)); }
+    }
+
 
 /* === Minor UI Improvement === */
     /* -- tighten nav -- */
@@ -57,7 +88,7 @@ body {
 
     /* content mod only. for layout see above */
     .filetree-note-icon a.filename[data-note-icon]::before { display: none; }
-    .filetree-sidebar { padding-right: 1em; font-size: 14px; }
+    .filetree-sidebar { font-size: 14px; }
 
     /* -- main content -- */
     main.content { font-size: 16px; }
