@@ -16,6 +16,7 @@ body {
     body.markdown-rendered {
         --page-max-width: 800px;
         --left-side-width: 280px;
+        --left-side-margin: 15px;
         --right-side-width: 300px;
         --both-side-width: calc( var(--left-side-width) + var(--right-side-width));
         scroll-behavior: smooth;
@@ -26,7 +27,7 @@ body {
     /* -- non-constrained layout adjustment -- */
     body.markdown-rendered .filetree-sidebar { width: var(--left-side-width); }
     body.markdown-rendered .filetree-sidebar > .folder { margin-inline: 0.5em; }
-    body.markdown-rendered .content { max-width: var(--page-max-width); }
+    body.markdown-rendered .content { max-width: calc(var(--page-max-width) - 40px); }
     main.content { margin-top: 50px; }
     .notelink.active-note { transform: unset; }
 
@@ -48,13 +49,13 @@ body {
 
     /* specific width range layout adjustment */
     @media (min-width: 980px) and (max-width: 1280px) {
-        main.content { margin-left: var(--left-side-width); }
+        main.content { margin-left: calc(var(--left-side-width) + var(--left-side-margin)); }
         .sidebar { max-width: var(--page-max-width); margin-left: var(--left-side-width); }
     }
     @media (min-width: 1280px) and (max-width: 1430px) {
         body.markdown-rendered .content {
-            width: calc((100vw - var(--both-side-width) - 50px));
-            margin-left: var(--left-side-width);
+            width: calc((100vw - var(--both-side-width) - var(--file-margins) * 2 - var(--left-side-margin)));
+            margin-left: calc(var(--left-side-width) + var(--left-side-margin));
         }
         .sidebar-container { flex-direction: column; }
     }
@@ -101,3 +102,4 @@ body {
         border-left: 1px solid var(--background-modifier-border);
         top: 0; bottom: 0.4em; left: 0;
     }
+
