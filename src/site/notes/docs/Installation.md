@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/docs/installation/","noteIcon":"","updated":"2023-10-21T21:32:53.723+08:00"}
+{"dg-publish":true,"dg-path":"Installation.md","permalink":"/installation/","noteIcon":"","updated":"2023-10-21T21:32:53.723+08:00"}
 ---
 
 
