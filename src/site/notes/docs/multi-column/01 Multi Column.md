@@ -1,18 +1,7 @@
 ---
-{"dg-publish":true,"dg-path":"multi-column/01 Multi Column.md","permalink":"/multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-10-21T21:43:45.243+08:00"}
+{"dg-publish":true,"permalink":"/docs/multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-10-27T17:52:19.877+08:00"}
 ---
 
-
-# Multi Column
-{: .no_toc }
-
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
 
 ## Understanding the snippet
 - CSS snippet file: [MCL Multi Column.css](https://github.com/efemkay/obsidian-modular-css-layout/blob/main/MCL%20Multi%20Column.css)
