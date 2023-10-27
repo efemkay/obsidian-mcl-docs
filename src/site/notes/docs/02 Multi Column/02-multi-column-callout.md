@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-26T14:13:02.544+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-27T22:17:36.105+08:00"}
 ---
 
 
@@ -7,6 +7,9 @@
 Multi Column Callout layout take advantage of Obsidian Callout - leveraging it as parent 'div' to house the sub callout (including Dataview results block). You can nest as many sub-callouts within it
 
 The sub-callout will expand if `[!multi-column]` callout has extra space or overflow to next row if it doesn't. Some degree of control is available - see Additional Controls below
+
+![hero-mc-callout.png](/img/user/docs/assets/hero-mc-callout.png)
+
 
 ### How to Use / Basic Syntax
 Here's a quick steps to create the Multi Column Callout. It's best to start with sub-callouts first to avoid getting confused on how to nest them.
