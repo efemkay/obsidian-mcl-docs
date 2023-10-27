@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"multi-column/02-multi-column-callout.md","permalink":"/multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-26T14:13:02.544+08:00"}
+{"dg-publish":true,"permalink":"/docs/multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-26T14:13:02.544+08:00"}
 ---
 
 
