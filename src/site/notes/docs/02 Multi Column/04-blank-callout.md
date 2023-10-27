@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/04-blank-callout.md","permalink":"/02-multi-column/04-blank-callout/","title":"Blank and Float Callout","noteIcon":"","updated":"2023-10-26T14:13:48.061+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/04-blank-callout.md","permalink":"/02-multi-column/04-blank-callout/","title":"Blank Callout","noteIcon":"","updated":"2023-10-27T22:34:59.731+08:00"}
 ---
 
 
@@ -8,7 +8,7 @@ Blank Callout layout is just to provide an invisible container (or div). It is u
 - Creating floating picture with extensive caption
 - Creating side note without callout decoratives (like the background color and so on)
 - Invisible container for embedded images for a dashboard design
-- Invisble container to render things in Live Preview which normally need Reading View like List Columns/Grid/Card
+- Invisible container to render things in Live Preview which normally need Reading View like List Columns/Grid/Card
 
 ### How To Use / Basic Syntax
 Insert a custom callout `[!blank-container]` or `[!blank]`. Here's an example markdown
