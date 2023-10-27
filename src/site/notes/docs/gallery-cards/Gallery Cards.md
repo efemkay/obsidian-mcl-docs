@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/docs/gallery-cards/gallery-cards/","title":"Gallery Cards","noteIcon":"","updated":"2023-10-27T17:51:23.057+08:00"}
+{"dg-publish":true,"dg-path":"gallery-cards/Gallery Cards.md","permalink":"/gallery-cards/gallery-cards/","title":"Gallery Cards","noteIcon":"","updated":"2023-10-27T17:51:23.057+08:00"}
 ---
 
 
