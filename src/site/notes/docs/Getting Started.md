@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/docs/getting-started/","noteIcon":"","updated":"2023-10-21T21:32:45.529+08:00"}
+{"dg-publish":true,"dg-path":"Getting Started.md","permalink":"/getting-started/","noteIcon":"","updated":"2023-10-21T21:32:45.529+08:00"}
 ---
 
 
