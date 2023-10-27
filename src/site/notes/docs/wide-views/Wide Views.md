@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/docs/wide-views/wide-views/","title":"Wide Views","noteIcon":"","updated":"2023-10-27T17:52:39.309+08:00"}
+{"dg-publish":true,"dg-path":"wide-views/Wide Views.md","permalink":"/wide-views/wide-views/","title":"Wide Views","noteIcon":"","updated":"2023-10-27T17:52:39.309+08:00"}
 ---
 
 
