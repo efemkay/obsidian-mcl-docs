@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/docs/multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-10-27T17:52:19.877+08:00"}
+{"dg-publish":true,"permalink":"/docs/multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-10-27T17:59:15.319+08:00"}
 ---
 
 
@@ -49,7 +49,7 @@ You can control sub-callout (within Multi-Column callout) on per callout and per
 > #### When Pairing with sub-callout with min width
 > By default, sub-callout within multi-column callout has min width of 200px (unless you changed it via Style Settings). Applying `wide-x` metadata for sub-callout that paired with those callout will have different sizing behaviour
 
-> #### Understanding callout type and callout metadata
+> [!info] Understanding callout type and callout metadata
 > - `> [!<callout-type>]` e.g. `> [!Summary]`
 > - `> [!<callout-type>|<callout-metadata>]` e.g. `> [!Summary|wide-2]`
 
