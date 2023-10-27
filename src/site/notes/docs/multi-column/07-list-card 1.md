@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"multi-column/07-list-card 1.md","permalink":"/multi-column/07-list-card-1/","title":"List Card","noteIcon":"","updated":"2023-10-15T17:30:44.850+08:00"}
+{"dg-publish":true,"permalink":"/docs/multi-column/07-list-card-1/","title":"List Card","noteIcon":"","updated":"2023-10-15T17:30:44.850+08:00"}
 ---
 
 
