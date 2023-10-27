@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/03-float-callout.md","permalink":"/02-multi-column/03-float-callout/","title":"Float Callout","noteIcon":"","updated":"2023-10-26T14:13:27.483+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/03-float-callout.md","permalink":"/02-multi-column/03-float-callout/","title":"Float Callout","noteIcon":"","updated":"2023-10-27T22:34:48.356+08:00"}
 ---
 
 
