@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/docs/mcl-docs-home/","tags":["gardenEntry"],"noteIcon":"","updated":"2023-10-27T12:44:19.428+08:00"}
+{"dg-publish":true,"dg-path":"MCL Docs Home.md","permalink":"/mcl-docs-home/","tags":["gardenEntry"],"noteIcon":"","updated":"2023-10-27T12:44:19.428+08:00"}
 ---
 
 
