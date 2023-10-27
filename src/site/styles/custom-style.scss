@@ -69,9 +69,21 @@ body {
 
 
 /* === Minor UI Improvement === */
+
+    /* -- inline header -- */
+    main.content > header { margin-bottom: 2em; }
+    main.content > header .timestamps { margin-top: 0; }
+
+    /* -- header spacing -- */
+    .markdown-rendered :is(h1,h2,h3,h4,h5,h6) { margin-block: 1.5em 0.5em; }
+    /* -- p ul spacing -- */
+    p:has(+ ul) { margin-block-end: 0.2em; }
+    p + ul { margin-block-start: 0.2em; }
+
     /* -- tighten nav -- */
     .toc-container nav.toc { padding: 0; }
-    .toc-container nav.toc ol { padding-inline-start: 1em; border-color: var(--background-modifier-border); }
+    .toc-container nav.toc ol { padding-inline-start: 1em; border-left-width: 0; position: relative; }
+    .toc-container nav.toc ol ol::before { content: ""; position: absolute; border-left: 1px solid var(--background-modifier-border); top: -5px; left: 2px; height: 100%; }
     .toc-container nav.toc ol:first-of-type { margin-top: 0.5em; }
     .toc-container nav.toc { font-size: 14px; }
 
@@ -81,7 +93,7 @@ body {
         content: "";
         display: block;
         position: absolute;
-        left: 1.2em; bottom: 0;
+        left: 1.4em; bottom: 0;
         height: calc(100% - 2em);
         border-left: 1px solid var(--background-modifier-border);
     }
@@ -102,4 +114,3 @@ body {
         border-left: 1px solid var(--background-modifier-border);
         top: 0; bottom: 0.4em; left: 0;
     }
-
