@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/docs/multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-10-27T17:59:15.319+08:00"}
+{"dg-publish":true,"dg-path":"multi-column/01 Multi Column.md","permalink":"/multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-10-27T17:59:15.319+08:00"}
 ---
 
 
