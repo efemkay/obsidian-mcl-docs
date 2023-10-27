@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Getting Started.md","permalink":"/getting-started/","noteIcon":"","updated":"2023-10-21T21:32:45.529+08:00"}
+{"dg-publish":true,"dg-path":"Getting Started.md","permalink":"/getting-started/","noteIcon":"","updated":"2023-10-27T21:17:32.003+08:00"}
 ---
 
 
@@ -28,4 +28,4 @@ I do this on my free time for personal joy. However, a cup of coffee or two woul
 
 [![Buy Me a Coffee at ko-fi.com|200](https://cdn.ko-fi.com/cdn/kofi1.png)](https://ko-fi.com/M4M3C77PF)
 
-Next: [[docs/Installation\|Installation]]
+Next: [[docs/02 Installation\|02 Installation]]
