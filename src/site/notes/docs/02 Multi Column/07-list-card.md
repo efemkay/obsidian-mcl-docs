@@ -1,18 +1,26 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/07-list-card.md","permalink":"/02-multi-column/07-list-card/","title":"List Card","noteIcon":"","updated":"2023-10-27T22:35:11.243+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/07-list-card.md","permalink":"/02-multi-column/07-list-card/","title":"List Card","noteIcon":"","updated":"2023-10-28T08:07:04.249+08:00"}
 ---
 
 
 ## Overview
-List Card layout will allow you to create multi column and multi row layout using a combination of (a) unordered lists (i.e.  `- list item`) and (b) custom hashtag at the specific list block. 
 
-This layout will only work on Reading View. If you want to make it work on Live Preview, you may encapsulate them in `[blank-container]` callout.
+List Card layout will allow you to create multi column and multi row layout using a combination of (a) unordered lists (i.e.  `- list item`) and (b) custom hashtag at the specific list block.
 
-There are no Markdown Attributes approach nor frontmatter approach due to underlying limitation of CSS.
+![](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/hero-mc-list-column-grid-card.png)
 
-![hero-mc-list-column-grid-card.png](/img/user/docs/assets/hero-mc-list-column-grid-card.png)
+> [!info] Making it work in Live Preview
+>
+> The column layout will only work on Reading View. If you want to make it work on Live Preview, there are a few options. You can encapsulate the list block in MCL's `[blank-container]` callout
+>
+> ...
+>
+> **There's no Markdown Attributes plugin approach**
+>
+> There are no Markdown Attributes approach due to limitation in specifying at the end of list block
 
-### How to use `#mcl/list-column`
+
+### How to Use `#mcl/list-card`
 
 Technically List Card is quite similar to List Grid but with extra customisation to make it card like. In order to enable it, place the hashtag anywhere in the top-level list items (preferably in the first bullet for easy identification). There are two options for List Card i.e.
 - `#mcl/list-card` - default minimum width 250px
@@ -49,4 +57,4 @@ If you have Style Settings plugin installed, you may control the following aspec
 - Bottom border for the first header in the card
 
 ## Example
-![mc-list-card.png](/img/user/docs/assets/mc-list-card.png)
+![example of list card](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/mc-list-card.png)
