@@ -1,23 +1,58 @@
 ---
-{"dg-publish":true,"dg-path":"03 Gallery Cards/04-image-float.md","permalink":"/03-gallery-cards/04-image-float/","title":"Image Float (Left/Right)","noteIcon":"","updated":"2023-10-27T22:52:17.896+08:00"}
+{"dg-publish":true,"dg-path":"03 Gallery Cards/04-image-float.md","permalink":"/03-gallery-cards/04-image-float/","title":"Image Float (Left/Right)","noteIcon":"","updated":"2023-10-28T08:11:35.633+08:00"}
 ---
 
 
+## Overview
 
-## Float Left/Right in Reading View Only
-- Use this syntax to enable image float in Reading View only. In Live Preview it will be displayed on different lines
-- Syntax: `![[<imagefile.jpg>|<position>|<size>]]`
-- Example: `![ryaneof-Jh_Xk8RQtG0-unsplash.jpg|right|300](/img/user/assets/ryaneof-Jh_Xk8RQtG0-unsplash.jpg)`
+Float Image is similar to Float Callout but apply directly to the images (doesn't require you to wrap it in a callout). Currently it uses image caption to identify how you want to float it, but in the future I intend to make it work with anchor tag `#` as well.
 
-## Float Left/Right in Live Preview and Reading View
-- Use this syntax to enable image float in both Live Preview and Reading View. In case you didn't notice, the difference is just prepending `float-` before the position.
-- Syntax: `![[<imagefile.jpg>|float-<position>|<size>]]`
-- Example: `![ryaneof-Jh_Xk8RQtG0-unsplash.jpg|float-right|300](/img/user/assets/ryaneof-Jh_Xk8RQtG0-unsplash.jpg)`
+### How to Use / Basic Syntax
 
-> Note that editing float in Live Preview will be a bit off (or "janky"). Navigate using keyboard instead of mouse/trackpad. Even better use Source Mode.
+1. Add your image (either internal or external) as per normal
+2. Add `left` or `right` to the image caption (similar to markdown display text i.e. `|`) e.g. `![[image.jpg|right]]`
+
+> You can still specify image width per normal if you desire, just make sure the width is the last syntax before closing bracket `]]`, e.g. below
+>
+> `![ryaneof-Jh_Xk8RQtG0-unsplash.jpg|right|300](/img/user/assets/ryaneof-Jh_Xk8RQtG0-unsplash.jpg)`
+
+Here's an example markdown
+
+```markdown
+### Main Article
+
+![ryaneof-Jh_Xk8RQtG0-unsplash.jpg|right|350](/img/user/assets/ryaneof-Jh_Xk8RQtG0-unsplash.jpg)
+
+Content of the main article
+```
 
 
-## External Images
+
+## Additional Controls (and Notes)
+
+### Apply to Live Preview
+
+By default, if you only specify either `left` or `right`, Float Image will only work in Reading View. If you want it to also work in Live Preview, prepend `float-` before the `left` or `right` e.g. `![[image.jpg|float-right]]`
+
+Here's an example markdown
+
+```markdown
+## Main Article
+
+![ryaneof-Jh_Xk8RQtG0-unsplash.jpg|float-right|350](/img/user/assets/ryaneof-Jh_Xk8RQtG0-unsplash.jpg)
+
+Content of the main article
+```
+
+> [!info] Note on Editing in Live Preview
+>
+> In previous version of Float Image, editing text next to it was quite janky. I've improved it a bit (for `float-right` at least). For `float-left` you may still find selecting and navigating the text (up and down) still not possible.
+>
+> To edit, it's better to navigate using keyboard (from the top or bottom) instead of mouse/trackpad. Even better, use Source Mode to edit.
+
+
+### External Images
+
 Technically, the image float positioning can work with external link images but it is currently not aesthetically optimised (in term of gaps and other adjustment).
 
 I will update this in the future. But if you must use it now, the syntax is `![<position>|<size>](<imagefile.jpg>)` and `![float-<position>|<size>](<imagefile.jpg>)`
