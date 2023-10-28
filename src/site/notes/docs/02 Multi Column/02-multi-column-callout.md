@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-28T08:01:36.042+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-28T09:04:40.076+08:00"}
 ---
 
 
@@ -124,60 +124,25 @@ If you have Style Settings plugin installed, you may control the following aspec
 ## Examples
 
 #### Standard Multi-Column Callout
+
 > ![](/img/user/docs/assets/mc-callout-standard.png)
-> ```
-> > [!multi-column]
-> >
-> >> [!note]+ Use Case
-> >> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-> >> ##### User Case Background
-> >> Vitae nunc sed velit dignissim sodales. In cursus turpis massa tincidunt dui ut ornare lectus.
-> >
-> >> [!warning]+ Resources
-> >> #### Requirement
-> >> - Lorem ipsum dolor sit amet
-> >> - Vitae nunc sed velit dignissim sodales.
-> >> - In cursus turpis massa tincidunt dui ut ornare lectus.
-> >
-> >> [!todo]+
-> >> - [x] Define Use Case
-> >> - [ ] Craft User Story
-> >> - [ ] Develop draft sketches
-> ```
 
----
-
-#### Icon Links Dashboard using Fixed Width option
-> ![example of list column](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/mc-callout-fixed-width.png)
+```
+> [!multi-column]
 >
-> ```markdown
-> ## Icon Links Dashboard using `[!multi-column|center-fixed-small]`
+>> [!note]+ Use Case
+>> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+>> ##### User Case Background
+>> Vitae nunc sed velit dignissim sodales. In cursus turpis massa tincidunt dui ut ornare lectus.
 >
-> > [!multi-column|center-fixed-small]
-> >
-> >> [!blank|center]
-> >> [![lightbulb icon|80](https://img.icons8.com/ios/250/FFFFFF/light-on.png) <br/> Interests](target%20note.md)
-> >>
-> >> [![macbook icon|80](https://img.icons8.com/ios/250/FFFFFF/macbook.png) <br/> Technology](target%20note.md)
-> >
-> >> [!blank|center]
-> >> [![brain icon|80](https://img.icons8.com/ios/250/FFFFFF/brain.png) <br/> Life & Wisdom](target%20note.md)
-> >>
-> >> [![briefcase icon|80](https://img.icons8.com/ios/250/FFFFFF/business.png) <br/> Work](target%20note.md)
-> >
-> >> [!blank|center]
-> >> [![running icon|80](https://img.icons8.com/ios/250/FFFFFF/sports-mode.png) <br/> Health](target%20note.md)
-> >>
-> >> [![home icon|80](https://img.icons8.com/ios/250/FFFFFF/house-with-a-garden.png) <br/> Family](target%20note.md)
+>> [!warning]+ Resources
+>> #### Requirement
+>> - Lorem ipsum dolor sit amet
+>> - Vitae nunc sed velit dignissim sodales.
+>> - In cursus turpis massa tincidunt dui ut ornare lectus.
 >
-> ```
-
----
-
-#### Example Screenshot - Multi Column Callout with Width Control
-<img src="https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/mc-callout-width-control.png" height="350px" />
-
----
-
-#### Example GIF - Install the snippet and apply Multi Column Callout
-<img src="https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/how%20to%20install%20and%20enable%20MCL.gif" height="350px" />
+>> [!todo]+
+>> - [x] Define Use Case
+>> - [ ] Craft User Story
+>> - [ ] Develop draft sketches
+```
