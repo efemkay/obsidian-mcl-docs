@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-27T22:17:36.105+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-28T08:01:36.042+08:00"}
 ---
 
 
@@ -8,8 +8,7 @@ Multi Column Callout layout take advantage of Obsidian Callout - leveraging it a
 
 The sub-callout will expand if `[!multi-column]` callout has extra space or overflow to next row if it doesn't. Some degree of control is available - see Additional Controls below
 
-![hero-mc-callout.png](/img/user/docs/assets/hero-mc-callout.png)
-
+![](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/hero-mc-callout.png)
 
 ### How to Use / Basic Syntax
 Here's a quick steps to create the Multi Column Callout. It's best to start with sub-callouts first to avoid getting confused on how to nest them.
@@ -30,7 +29,15 @@ Here's an example markdown
 >> your notes or lists here. using markdown formatting
 ```
 
+### What Counts as Column in a `[!multi-column]`?
+By default, another callout (aka sub-callout) within `[!multi-column]` is how you create a "column". But this snippets do provide a few alternatives
+- immediate dataview block (either table or list)
+- immediate blockquote
+- ordered/unordered list (but need to have `<br/>` tag between lists due to how obsidian override "markdown loose list")
+
+> [!info]
 > Note that when you insert callout within callout, the line separating the callouts should only use single angle bracket (">")
+
 
 ## Additional Controls
 ### Fixed Width Option for `[!multi-column]`
@@ -72,7 +79,9 @@ Here's an example markdown
 >> your notes or lists here. using markdown formatting
 ```
 
-> #### Limitation on No-Wrap Multi Column
+
+> [!important] Limitation on No-Wrap Multi Column
+>
 > Width Control (different width for sub-callout) for now is not valid for No-Wrap Multi Column. Columns will be mostly follow the minimum width -- it has separate minimum width than the Wrapped Multi Column
 
 ### Width Control
@@ -97,10 +106,12 @@ Here's an example markdown
 >> your notes or lists here. using markdown formatting
 ```
 
-> #### When Pairing with sub-callout with min width
+> [!info] When Pairing with sub-callout with min width
+>
 > By default, sub-callout within multi-column callout has min width of 200px (unless you changed it via Style Settings). Applying `wide-x` metadata for sub-callout that paired with those callout will have different sizing behaviour
 
-> #### Understanding callout type and callout metadata
+> [!info] Understanding callout type and callout metadata
+>
 > - `> [!<callout-type>]` e.g. `> [!Summary]`
 > - `> [!<callout-type>|<callout-metadata>]` e.g. `> [!Summary|wide-2]`
 
@@ -112,15 +123,61 @@ If you have Style Settings plugin installed, you may control the following aspec
 
 ## Examples
 
-#### Example Screenshot - Multi Column (general)
-<img src="https://user-images.githubusercontent.com/42369515/163700561-c8d62aa3-0ac8-488c-a80e-8bfb3b539ca8.png" height="350px" />
+#### Standard Multi-Column Callout
+> ![](/img/user/docs/assets/mc-callout-standard.png)
+> ```
+> > [!multi-column]
+> >
+> >> [!note]+ Use Case
+> >> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> >> ##### User Case Background
+> >> Vitae nunc sed velit dignissim sodales. In cursus turpis massa tincidunt dui ut ornare lectus.
+> >
+> >> [!warning]+ Resources
+> >> #### Requirement
+> >> - Lorem ipsum dolor sit amet
+> >> - Vitae nunc sed velit dignissim sodales.
+> >> - In cursus turpis massa tincidunt dui ut ornare lectus.
+> >
+> >> [!todo]+
+> >> - [x] Define Use Case
+> >> - [ ] Craft User Story
+> >> - [ ] Develop draft sketches
+> ```
 
-#### Example Screenshot - Multi Column Callout with Fixed Width
-![example of list column](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/mc-callout-fixed-width.png)
+---
+
+#### Icon Links Dashboard using Fixed Width option
+> ![example of list column](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/mc-callout-fixed-width.png)
+>
+> ```markdown
+> ## Icon Links Dashboard using `[!multi-column|center-fixed-small]`
+>
+> > [!multi-column|center-fixed-small]
+> >
+> >> [!blank|center]
+> >> [![lightbulb icon|80](https://img.icons8.com/ios/250/FFFFFF/light-on.png) <br/> Interests](target%20note.md)
+> >>
+> >> [![macbook icon|80](https://img.icons8.com/ios/250/FFFFFF/macbook.png) <br/> Technology](target%20note.md)
+> >
+> >> [!blank|center]
+> >> [![brain icon|80](https://img.icons8.com/ios/250/FFFFFF/brain.png) <br/> Life & Wisdom](target%20note.md)
+> >>
+> >> [![briefcase icon|80](https://img.icons8.com/ios/250/FFFFFF/business.png) <br/> Work](target%20note.md)
+> >
+> >> [!blank|center]
+> >> [![running icon|80](https://img.icons8.com/ios/250/FFFFFF/sports-mode.png) <br/> Health](target%20note.md)
+> >>
+> >> [![home icon|80](https://img.icons8.com/ios/250/FFFFFF/house-with-a-garden.png) <br/> Family](target%20note.md)
+>
+> ```
+
+---
 
 #### Example Screenshot - Multi Column Callout with Width Control
 <img src="https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/mc-callout-width-control.png" height="350px" />
 
+---
+
 #### Example GIF - Install the snippet and apply Multi Column Callout
 <img src="https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/how%20to%20install%20and%20enable%20MCL.gif" height="350px" />
-
