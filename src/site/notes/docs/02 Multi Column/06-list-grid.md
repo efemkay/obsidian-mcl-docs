@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-10-27T22:35:08.656+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-10-28T08:06:12.783+08:00"}
 ---
 
 
@@ -8,11 +8,19 @@ List Grid layout will allow you to create multi column and multi row layout usin
 1. Apply at the specific list block using hashtag. This is the recommended option.
 2. Apply at the frontmatter. This affects ALL unordered list in that particular note
 
-This layout will only work on Reading View. If you want to make it work on Live Preview, you may encapsulate them in `[blank-container]` callout.
+![](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/hero-mc-list-column-grid-card.png)
 
-> [!note] There are no Markdown Attributes approach due to limitation in specifying at the end of list block
 
-![hero-mc-list-column-grid-card.png](/img/user/docs/assets/hero-mc-list-column-grid-card.png)
+> [!info] Making it work in Live Preview
+>
+> The column layout will only work on Reading View. If you want to make it work on Live Preview, there are a few options. You can encapsulate the list block in MCL's `[blank-container]` callout
+>
+> ...
+>
+> **There's no Markdown Attributes plugin approach**
+>
+> There are no Markdown Attributes approach due to limitation in specifying at the end of list block
+
 
 ### How To - Using hashtag i.e. `#mcl/list-grid`
 Technically List Card is quite similar to List Grid but with extra customisation to make it card like. In order to enable it, place the hashtag anywhere in the top-level list items (preferably in the first bullet for easy identification). There are two options for List Card i.e.
@@ -25,7 +33,7 @@ If you have consecutive group of list that you actually meant to be a separate l
 
 Here's an example markdown:
 ```md
-- #### Core Work #mcl/list-card
+- #### Core Work #mcl/list-grid
     - [[00 Home|Main Goal 1]]
     - [[00 Home|Main Goal 1]]
     - [[00 Home|Main Goal 1]]
