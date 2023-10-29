@@ -17,7 +17,7 @@ cssclass: text-justify, wide-page, minimal-float
 ## General linear model
 
 > [!blank-container|right-medium] Relationship of Data, Information and Intelligence
-> ![Pasted image 20220424085124.png](/img/user/Showcases/Float%20with%20Multi%20Column%20Dataview/Pasted%20image%2020220424085124.png)
+> ![Pasted image 20220424085124.png](/img/user/screenshots/Pasted%20image%2020220424085124.png)
 > Example of [simple linear regression](https://en.wikipedia.org/wiki/Simple_linear_regression "Simple linear regression"), which has one independent variable
 
 The **general linear model** or **general multivariate regression model** is a compact way of simultaneously writing several [multiple linear regression](https://en.wikipedia.org/wiki/Multiple_linear_regression "Multiple linear regression") models. In that sense it is not a separate statistical [linear model](https://en.wikipedia.org/wiki/Linear_model "Linear model"). The various multiple linear regression models may be compactly written as $Y=XB + U$
