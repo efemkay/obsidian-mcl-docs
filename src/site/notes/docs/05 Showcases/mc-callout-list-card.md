@@ -32,7 +32,7 @@ cssClass: minimal-float, wide-page
 > > 	- During **February**, it is common for locals to take ski vacations. If you go during this time, expect more crowds and higher hotel prices. 
 >
 > > [!info|wide-2]
-> > ![Pasted image 20221105233818.png](/img/user/Pasted%20image%2020221105233818.png)
+> > ![Pasted image 20221105233818.png](/img/user/screenshots/Pasted%20image%2020221105233818.png)
 > > > Switzerland’s weather in January is dominated by cold temperatures and snowfall.
 
 
