@@ -97,7 +97,7 @@ If you have Style Settings plugin installed, you may control the following aspec
 > ```
 > ## When is the best to ski in Switzerland?
 > > [!info|float-right-small] Average Temperatures and Rainfall
-> > ![Pasted image 20221105233818.png](/img/user/Pasted%20image%2020221105233818.png)
+> > ![Pasted image 20221105233818.png](/img/user/screenshots/Pasted%20image%2020221105233818.png)
 > >> Switzerland’s weather in January is dominated by cold temperatures and snowfall.
 >
 > - ### The best months to ski in Switzerland are December, January, and February with **January would be the best month** to ski in Switzerland of all three.
