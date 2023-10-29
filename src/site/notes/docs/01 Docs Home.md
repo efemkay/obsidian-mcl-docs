@@ -1,7 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-10-28T08:18:37.180+08:00"}
+{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-10-29T19:10:59.716+08:00"}
 ---
 
+
+![mcl-page-banner.jpg](/img/user/assets/mcl-page-banner.jpg)
 
 ## What is this snippet all about?
 Modular CSS Layout (MCL) snippets are meant to provide a useful layout options as a complement to the default theme or your chosen community theme. It focuses on working with Obsidian's CSS classes and HTML structure to achieve the intended layout; which also means it won't do any color-theme changes.
