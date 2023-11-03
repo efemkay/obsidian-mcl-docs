@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Installation.md","permalink":"/02-installation/","title":"Installation","pinned":true,"noteIcon":"","updated":"2023-10-28T07:32:27.390+08:00"}
+{"dg-publish":true,"dg-path":"02 Installation.md","permalink":"/02-installation/","title":"Installation","pinned":true,"noteIcon":"","updated":"2023-11-01T22:39:27.957+08:00"}
 ---
 
 
@@ -51,3 +51,7 @@ Snippet Downloader is an Obsidian community plugin by Mara Li. Since I'm plannin
 - Save the file as a `.css` file into your `[vault]/.obsidian/snippets` folder. Filename can be anything.
 - Open Obisidian and go to `Settings > Appearance > CSS snippets` to enable the snippet.
 > *Click on "Reload snippets" button if the snippet does not appear in the list.*
+
+---
+
+< [[docs/01 Docs Home\|Prev]] | Next: [[docs/02 Multi Column/01 Multi Column\|Multi Column]] 
