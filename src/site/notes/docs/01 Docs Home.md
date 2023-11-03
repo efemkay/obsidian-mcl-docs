@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-10-29T19:10:59.716+08:00"}
+{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-11-01T22:37:11.675+08:00"}
 ---
 
 
@@ -27,3 +27,7 @@ So far, there are three (3) modules for MCL snippets. Check out each module's do
 I do this on my free time for personal joy. However, a cup of coffee or two would motivate me further! If you like what I do, and want to contribute back, you can support me via Ko-fi
 
 [![Buy Me a Coffee at ko-fi.com|200](https://cdn.ko-fi.com/cdn/kofi1.png)](https://ko-fi.com/M4M3C77PF)
+
+---
+
+**Next: [[docs/02 Installation\|Installation]]** 
