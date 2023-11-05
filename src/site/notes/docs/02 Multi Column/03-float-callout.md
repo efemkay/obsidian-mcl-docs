@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/03-float-callout.md","permalink":"/02-multi-column/03-float-callout/","title":"Float Callout","noteIcon":"","updated":"2023-10-28T07:56:15.873+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/03-float-callout.md","permalink":"/02-multi-column/03-float-callout/","title":"Float Callout","noteIcon":"","updated":"2023-11-03T10:08:27.795+08:00"}
 ---
 
 
@@ -106,3 +106,7 @@ If you have Style Settings plugin installed, you may control the following aspec
 > 	- During **February**, it is common for locals to take ski vacations. If you go during this time, expect more crowds and higher hotel prices.
 >
 > ```
+
+---
+
+**< [[docs/02 Multi Column/02-multi-column-callout\|Multi Column Callout]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/02 Multi Column/04-blank-callout\|Blank Callout]] >**
