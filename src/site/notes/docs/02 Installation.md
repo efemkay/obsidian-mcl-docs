@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Installation.md","permalink":"/02-installation/","title":"Installation","pinned":true,"noteIcon":"","updated":"2023-11-01T22:39:27.957+08:00"}
+{"dg-publish":true,"dg-path":"02 Installation.md","permalink":"/02-installation/","title":"Installation","pinned":true,"noteIcon":"","updated":"2023-11-05T20:00:33.674+08:00"}
 ---
 
 
@@ -54,4 +54,4 @@ Snippet Downloader is an Obsidian community plugin by Mara Li. Since I'm plannin
 
 ---
 
-< [[docs/01 Docs Home\|Prev]] | Next: [[docs/02 Multi Column/01 Multi Column\|Multi Column]] 
+**< [[docs/01 Docs Home\|Prev]] | Next: [[docs/02 Multi Column/01 Multi Column\|Multi Column]] >** 
