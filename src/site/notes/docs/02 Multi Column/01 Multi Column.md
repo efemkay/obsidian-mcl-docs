@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/01 Multi Column.md","permalink":"/02-multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-11-01T22:41:59.134+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/01 Multi Column.md","permalink":"/02-multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-11-03T10:05:36.340+08:00"}
 ---
 
 
@@ -25,4 +25,4 @@ This snippet will allow you to re-shape the either callout or (unordered) list a
 
 ---
 
-[[docs/02 Multi Column/01 Multi Column\|Prev]] | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] | Next: [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]] 
+**< [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] | Next: [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]] >** 
