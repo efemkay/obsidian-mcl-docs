@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-11-01T22:43:59.892+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-11-03T10:05:52.967+08:00"}
 ---
 
 
@@ -149,4 +149,4 @@ If you have Style Settings plugin installed, you may control the following aspec
 
 ---
 
-< [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/02 Multi Column/03-float-callout\|Float Callout]] >
+**< [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/02 Multi Column/03-float-callout\|Float Callout]] >**
