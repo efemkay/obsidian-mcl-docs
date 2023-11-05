@@ -46,8 +46,8 @@ Hypothesis tests with the general linear model can be made in two ways: multiva
 >
 >  | Model Validation                                                              |
 > | ----------------------------------------------------------------------------- |
-> | [[sample data C/Goodness of fit.md\|Goodness of fit]]                         |
 > | [[sample data C/Errors and residuals.md\|Errors and residuals]]               |
+> | [[sample data C/Goodness of fit.md\|Goodness of fit]]                         |
 > | [[sample data C/Mean and predicted response.md\|Mean and predicted response]] |
 > 
 { .block-language-dataview}
