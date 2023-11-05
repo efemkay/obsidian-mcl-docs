@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/07-list-card.md","permalink":"/02-multi-column/07-list-card/","title":"List Card","noteIcon":"","updated":"2023-10-28T08:07:04.249+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/07-list-card.md","permalink":"/02-multi-column/07-list-card/","title":"List Card","noteIcon":"","updated":"2023-11-03T10:15:03.609+08:00"}
 ---
 
 
@@ -58,3 +58,7 @@ If you have Style Settings plugin installed, you may control the following aspec
 
 ## Example
 ![example of list card](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/mc-list-card.png)
+
+---
+
+**< [[docs/02 Multi Column/06-list-grid\|List Grid]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/03 Gallery Cards/01 Gallery Cards\|Gallery Cards]] >**
