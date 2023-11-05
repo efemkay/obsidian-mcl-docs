@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-10-28T08:06:12.783+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-11-03T10:13:17.003+08:00"}
 ---
 
 
@@ -87,3 +87,7 @@ If you have Style Settings plugin installed, you may control the following aspec
 
 ## Example
 ![example of list grid](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/mc-list-grid.png)
+
+---
+
+**< [[docs/02 Multi Column/05-list-column\|List Column]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/02 Multi Column/07-list-card\|List Card]] >**
