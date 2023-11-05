@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/05-list-column.md","permalink":"/02-multi-column/05-list-column/","title":"List Column","noteIcon":"","updated":"2023-10-27T22:35:05.572+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/05-list-column.md","permalink":"/02-multi-column/05-list-column/","title":"List Column","noteIcon":"","updated":"2023-11-03T10:11:58.338+08:00"}
 ---
 
 
@@ -107,3 +107,7 @@ cssClass: two-column-list
 ---
 
 <img src="https://user-images.githubusercontent.com/42369515/163700640-245e4275-f329-4cb2-9138-07cb276354cc.png" height="350px">
+
+---
+
+**< [[docs/02 Multi Column/04-blank-callout\|Blank Callout]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/02 Multi Column/06-list-grid\|List Grid]] >**
