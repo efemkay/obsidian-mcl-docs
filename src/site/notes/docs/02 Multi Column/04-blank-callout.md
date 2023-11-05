@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/04-blank-callout.md","permalink":"/02-multi-column/04-blank-callout/","title":"Blank Callout","noteIcon":"","updated":"2023-10-27T22:34:59.731+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/04-blank-callout.md","permalink":"/02-multi-column/04-blank-callout/","title":"Blank Callout","noteIcon":"","updated":"2023-11-03T10:10:46.378+08:00"}
 ---
 
 
@@ -46,3 +46,7 @@ Main paragraph content
 
 Next paragraph content
 ```
+
+---
+
+**< [[docs/02 Multi Column/03-float-callout\|Float Callout]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/02 Multi Column/05-list-column\|List Column]] >**
