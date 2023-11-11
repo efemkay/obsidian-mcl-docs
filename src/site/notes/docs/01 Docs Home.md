@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-11-05T20:00:10.296+08:00"}
+{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-11-10T10:34:01.499+08:00"}
 ---
 
 
@@ -36,6 +36,9 @@ If you wanted to explore with some guided navigation, just follow the "Next" nav
 > Note that the CSS snippets are meant to be modular. You don't have to install all of it.
 > I use the word install and installation loosely here, since they are just single `.css` file that you can just "Save As..." to  your `[vault]/.obsidian/snippets` folder
 
+## Credits
+- [sailKite](https://www.github.com/sailKiteV) for promoting my snippets in Obsidian Discord (OMG), and for some CSS ideas
+- trainbuffer for also helping out users in OMG, and for some CSS ideas
 
 ---
 
