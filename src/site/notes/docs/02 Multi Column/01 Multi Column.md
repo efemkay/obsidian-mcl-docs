@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/01 Multi Column.md","permalink":"/02-multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-11-09T22:32:41.132+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/01 Multi Column.md","permalink":"/02-multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-11-11T12:27:13.390+08:00"}
 ---
 
 
@@ -9,17 +9,17 @@
 
 This snippet will allow you to re-shape the either callout or (unordered) list and position them side by side. See each subsection for more details on how to control that. In summary this snippet has the following features
 
-- #### [[docs/02 Multi Column/02-multi-column-callout\|02-multi-column-callout]]  #mcl/list-card
+- **[[docs/02 Multi Column/02-multi-column-callout\|MC Callout]]**  #mcl/list-card
 	- allow for multiple columns setup using either sub callouts or any of the acceptable markdown components
-- #### [[docs/02 Multi Column/03-float-callout\|03-float-callout]] 
+- **[[docs/02 Multi Column/03-float-callout\|Float Callout]]** 
 	- create a floating callout to either side of the screen (but still within readable line length) and allow text to flow around it
-- #### [[docs/02 Multi Column/04-blank-callout\|04-blank-callout]] 
+- **[[docs/02 Multi Column/04-blank-callout\|Blank Callout]]** 
 	- use it to house other things like List Column or List Grid so that it can render in Live Preview
-- #### [[docs/02 Multi Column/05-list-column\|05-list-column]]
+- **[[docs/02 Multi Column/05-list-column\|List Column]]**
 	- Create a multi column list items that flows cotinuously
-- #### [[docs/02 Multi Column/06-list-grid\|06-list-grid]] 
+- **[[docs/02 Multi Column/06-list-grid\|List Grid]]** 
 	- Create a multi column list items that creates new column for each main bullet
-- #### [[docs/02 Multi Column/07-list-card\|07-list-card]] 
+- **[[docs/02 Multi Column/07-list-card\|List Card]]** 
 	- Create a card like layout from list items
 
 ---
