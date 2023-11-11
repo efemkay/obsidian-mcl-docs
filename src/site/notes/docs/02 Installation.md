@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Installation.md","permalink":"/02-installation/","title":"Installation","pinned":true,"noteIcon":"","updated":"2023-11-11T11:23:43.305+08:00"}
+{"dg-publish":true,"dg-path":"02 Installation.md","permalink":"/02-installation/","title":"Installation","pinned":true,"noteIcon":"","updated":"2023-11-11T13:40:07.665+08:00"}
 ---
 
 
@@ -7,13 +7,6 @@ This is actually just a CSS code snippets collection. So it isn't an installatio
 
 ### Using Snippet Downloader (recommended)
 Snippet Downloader is an Obsidian community plugin by Mara Li. Since I'm planning to update this snippets from time to time, this is the recommended approach as the plugin also provides a way to update/redownload from included repository
-
-> [!note] Snippet Downloader plugin can still be used to install MCL
->
-> (Updated 27 Aug 2023) [Lisandra-dev](https://github.com/Lisandra-dev/obsidian-snippet-downloader) Snippet Downloader plugin can still be used to install MCL recently archived the plugin, but it is still very much functional for downloading snippets. There's additional step for you to install the plugin (since it's no longer available via Community Plugins) - it is reflected below...
-
-> [!warning]
-> Please ensure your vault's /.obsidian/snippets folder is already created before doing the following steps. You can do that by going to `Settings > Appearance` and click "Open snippets folder" under CSS snippets section
 
 1. Install **Obsidian42 - BRAT** plugin and enable it
 	- Go to `Settings > Community Plugins` and under **Community plugins** click **Browse** button
@@ -39,6 +32,18 @@ Snippet Downloader is an Obsidian community plugin by Mara Li. Since I'm plannin
 >
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/F9z5spGosDI?si=PL4EwJ9wdMyYHCUh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+> [!note] Snippet Downloader plugin can still be used to install MCL
+>
+> (Updated 27 Aug 2023) [Lisandra-dev](https://github.com/Lisandra-dev/obsidian-snippet-downloader) Snippet Downloader plugin can still be used to install MCL recently archived the plugin, but it is still very much functional for downloading snippets. There's additional step for you to install the plugin (since it's no longer available via Community Plugins) - it is reflected below...
+
+> [!warning]
+> Please ensure your vault's /.obsidian/snippets folder is already created before doing the following steps. You can do that by going to `Settings > Appearance` and click "Open snippets folder" under CSS snippets section
+
+> [!warning]
+> For this features to work, please make sure your Obsidian **Installer** version is at v1.1.9 or higher as per screenshot below. Note that in Obsidian the "Current version: v1.x.x" is the App version while "(Installer version: v1.x.x)" is the **Installer** version I'm referring to above.
+> 
+> ![0b2fa16129e322205240958a971b27325ed39764png 658×160 obsidianmd](https://forum.obsidian.md/uploads/default/original/3X/0/b/0b2fa16129e322205240958a971b27325ed39764.png)
 
 ### Manually Saving from GH - Downloading the Zip File
 1. **Go to MCL's GitHub Releases page**
