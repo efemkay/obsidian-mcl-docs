@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 Advanced/Examples of sub elements for MC Callout.md","permalink":"/06-advanced/examples-of-sub-elements-for-mc-callout/","noteIcon":"","updated":"2023-11-11T18:44:17.266+08:00"}
+{"dg-publish":true,"dg-path":"06 Advanced/Examples of sub elements for MC Callout.md","permalink":"/06-advanced/examples-of-sub-elements-for-mc-callout/","noteIcon":"","updated":"2023-11-11T18:56:39.819+08:00"}
 ---
 
 
@@ -24,28 +24,20 @@
 ```
 > [!multi-column]
 > 
->  | file.link                                                                                       |
-> | ----------------------------------------------------------------------------------------------- |
-> | [[sample data A/Correlation does not imply causation.md\|Correlation does not imply causation]] |
-> | [[sample data A/Descriptive Statistics.md\|Descriptive Statistics]]                             |
-> | [[sample data A/Exploratory data analysis.md\|Exploratory data analysis]]                       |
+> ``'dataview
+> table without id file.link
+> from "sample data A"
+> ```
 > 
-{ .block-language-dataview}
+> ``'dataview
+> table without id file.link
+> from "sample data B"
+> ```
 > 
->  | file.link                                                               |
-> | ----------------------------------------------------------------------- |
-> | [[sample data B/Generalized linear model.md\|Generalized linear model]] |
-> | [[sample data B/Logistic regression.md\|Logistic regression]]           |
-> 
-{ .block-language-dataview}
-> 
->  | file.link                                                                     |
-> | ----------------------------------------------------------------------------- |
-> | [[sample data C/Errors and residuals.md\|Errors and residuals]]               |
-> | [[sample data C/Goodness of fit.md\|Goodness of fit]]                         |
-> | [[sample data C/Mean and predicted response.md\|Mean and predicted response]] |
-> 
-{ .block-language-dataview}
+> ``'dataview
+> table without id file.link
+> from "sample data C"
+> ```
 ```
 
 ---
