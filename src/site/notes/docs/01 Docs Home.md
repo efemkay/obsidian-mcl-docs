@@ -1,11 +1,14 @@
 ---
-{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-11-10T10:34:01.499+08:00"}
+{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-11-11T14:58:10.472+08:00"}
 ---
 
 
 ![mcl-page-banner.jpg](/img/user/assets/mcl-page-banner.jpg)
 
 ## Overview
+
+**GH Repo: [efemkay/obsidian-modular-css-layout (github.com)](https://github.com/efemkay/obsidian-modular-css-layout)**
+
 Modular CSS Layout (MCL) is a specific collection of my CSS snippets that are meant to provide a useful layout options to complement the default theme or your chosen community theme. It focuses on working with Obsidian's CSS classes and HTML structure to achieve the intended layout, and because the focus is about layout, it means that it won't have any color-theme changes.
 
 Using MCL will require you to know certain syntaxes like `[!multi-column|no-wrap]` because it doesn't have GUI to guide you on the layout. But this documentation site is meant to help you on that part.
