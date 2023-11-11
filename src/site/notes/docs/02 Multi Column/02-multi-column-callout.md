@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-11-11T15:30:01.956+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-11-11T18:52:11.427+08:00"}
 ---
 
 
@@ -29,26 +29,38 @@ Here's an example markdown
 >> your notes or lists here. using markdown formatting
 ```
 
-### What Counts as Column in a `[!multi-column]`?
-By default, another callout (aka sub-callout) within `[!multi-column]` is how you create a "column". But this snippets do provide a few alternatives
-- immediate dataview block (either table or list)
-- immediate blockquote
-- ordered/unordered list (but need to have `<br/>` tag between lists due to how obsidian override "markdown loose list")
 
-> [!info]
-> Note that when you insert callout within callout, the line separating the callouts should only use single angle bracket (">")
+> [!warning] Be aware of angle bracket (">") count when separating sub callouts
+> 
+> Note that when you insert callout within callout, the line separating the callouts should only use single angle bracket (">"). Example below
+> 
+> ```
+>>> [!callout]
+>>> callout content (note that below this line, only one angle bracket)
+>>
+>>> [!callout]
+>>> callout content
+> ```
 
+> [!info] What Counts as Column in a `[!multi-column]`?
+> By default, another callout (aka sub-callout) within `[!multi-column]` is how you create a "column". But this snippets do provide a few alternatives i.e. (dataview blocks, paragraph, list block, etc.)
+>
+> List block need to have `<br/>` tag in between lists override "markdown loose list" rendering. See [[docs/06 Advanced/Examples of sub elements for MC Callout\|Examples of sub elements for MC Callout]] for more details.
+
+> [!info] Nested Multi Column Callout
+> 
+> With the release of 0.9.7, you can now use nested Multi Column Callout. See [[docs/06 Advanced/Using MC Callout within MC Callout\|Using MC Callout within MC Callout]]  for more details.
 
 ## Additional Controls
 
-- ### [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] #mcl/list-card 
+- **[[docs/06 Advanced/Callout Width Control\|Callout Width Control]]** #mcl/list-card 
 	- You can control sub-callout width by specifying the custom width option in the callout-metadata element (do NOT apply to `[!multi-column]` callout itself. So far, there's only a discrete options per below
-- ### [[docs/06 Advanced/No Wrap Option\|No Wrap Option]]
+- **[[docs/06 Advanced/No Wrap Option\|No Wrap Option]]**
 	- Use modifier `no-wrap` to create multi column callout on a single row multi column callout and automatically enable horizontal scrolling. The scrollbar will appear when the sub-callouts exceed the width of the `[!multi-column]`
-- ### [[docs/06 Advanced/Icons options\|Icons options]]
+- **[[docs/06 Advanced/Icons options\|Icons options]]**
 	- Use modifier `icons` (and optionally `col2`/`col3`/`col4`) to create sub-callout with fixed width. This may be useful if you want to create dashboard with icon that you want to stay clustered together rather than spread to fill in the space.
 
-### Additional Global Settings via Style Settings
+### Available Global Settings via Style Settings
 If you have Style Settings plugin installed, you may control the following aspects (go to `Style Settings > Modular CSS Layout - Multi Column > Multi Column Callout`)
 - Hide / Show SNW Indicator for images in MC Callout
 - Adjust minimum width for general sub-callout and No-Wrap sub-callout
