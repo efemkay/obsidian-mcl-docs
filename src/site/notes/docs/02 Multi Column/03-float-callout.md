@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/03-float-callout.md","permalink":"/02-multi-column/03-float-callout/","title":"Float Callout","noteIcon":"","updated":"2023-11-09T22:53:27.827+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/03-float-callout.md","permalink":"/02-multi-column/03-float-callout/","title":"Float Callout","noteIcon":"","updated":"2023-11-11T18:01:37.487+08:00"}
 ---
 
 
@@ -82,8 +82,7 @@ You can also combine the above controls together. Here's an example markdown
 Content of the main article
 ```
 
-### Additional Global Settings via Style Settings
-
+### Available Global Settings via Style Settings
 If you have Style Settings plugin installed, you may control the following aspects (go to `Style Settings > Modular CSS Layout - Multi Column > Float Callout`)
 - Hide / Show SNW Indicator in Float Callout
 - Adjust width definition for "small", "medium", and "large"
