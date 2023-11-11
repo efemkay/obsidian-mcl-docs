@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-11-03T10:13:17.003+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-11-11T12:26:35.572+08:00"}
 ---
 
 
