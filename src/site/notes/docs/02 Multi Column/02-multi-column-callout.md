@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-11-03T10:05:52.967+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-11-09T22:54:03.924+08:00"}
 ---
 
 
@@ -40,6 +40,41 @@ By default, another callout (aka sub-callout) within `[!multi-column]` is how yo
 
 
 ## Additional Controls
+
+- #### [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] #mcl/list-card 
+	- You can control sub-callout width by specifying the custom width option in the callout-metadata element (do NOT apply to `[!multi-column]` callout itself. So far, there's only a discrete options per below:
+
+### Width Control
+You can control sub-callout width by specifying the custom width option in the callout-metadata element (do NOT apply to `[!multi-column]` callout itself. So far, there's only a discrete options per below:
+- `min-0` - to override and disable min width set in Style Settings
+- `wide-2` - give callout twice the size
+- `wide-3` - three times the size
+- `wide-4` - four times the size
+- `wide-5` - five times the size
+
+Here's an example markdown
+```
+> [!multi-column]
+>
+>> [!note|wide-3]+ Work
+>> your notes or lists here. using markdown formatting
+>
+>> [!warning|wide-2]+ Personal
+>> your notes or lists here. using markdown formatting
+>
+>> [!summary|min-0]+ Charity
+>> your notes or lists here. using markdown formatting
+```
+
+> [!info] When Pairing with sub-callout with min width
+>
+> By default, sub-callout within multi-column callout has min width of 200px (unless you changed it via Style Settings). Applying `wide-x` metadata for sub-callout that paired with those callout will have different sizing behaviour
+
+> [!info] Understanding callout type and callout metadata
+>
+> - `> [!<callout-type>]` e.g. `> [!Summary]`
+> - `> [!<callout-type>|<callout-metadata>]` e.g. `> [!Summary|wide-2]`
+
 ### Fixed Width Option for `[!multi-column]`
 This option will allow you to create fixed width multi column callout that doesn't expand. You can specify it to either align to the center, left or right. This may be useful if you want to create dashboard with icon that you want to stay clustered together rather than spread to fill in the space.
 
@@ -84,37 +119,6 @@ Here's an example markdown
 >
 > Width Control (different width for sub-callout) for now is not valid for No-Wrap Multi Column. Columns will be mostly follow the minimum width -- it has separate minimum width than the Wrapped Multi Column
 
-### Width Control
-You can control sub-callout width by specifying the custom width option in the callout-metadata element (do NOT apply to `[!multi-column]` callout itself. So far, there's only a discrete options per below:
-- `min-0` - to override and disable min width set in Style Settings
-- `wide-2` - give callout twice the size
-- `wide-3` - three times the size
-- `wide-4` - four times the size
-- `wide-5` - five times the size
-
-Here's an example markdown
-```
-> [!multi-column]
->
->> [!note|wide-3]+ Work
->> your notes or lists here. using markdown formatting
->
->> [!warning|wide-2]+ Personal
->> your notes or lists here. using markdown formatting
->
->> [!summary|min-0]+ Charity
->> your notes or lists here. using markdown formatting
-```
-
-> [!info] When Pairing with sub-callout with min width
->
-> By default, sub-callout within multi-column callout has min width of 200px (unless you changed it via Style Settings). Applying `wide-x` metadata for sub-callout that paired with those callout will have different sizing behaviour
-
-> [!info] Understanding callout type and callout metadata
->
-> - `> [!<callout-type>]` e.g. `> [!Summary]`
-> - `> [!<callout-type>|<callout-metadata>]` e.g. `> [!Summary|wide-2]`
-
 ### Additional Global Settings via Style Settings
 If you have Style Settings plugin installed, you may control the following aspects (go to `Style Settings > Modular CSS Layout - Multi Column > Multi Column Callout`)
 - Hide / Show SNW Indicator for images in Float Callout
@@ -149,4 +153,4 @@ If you have Style Settings plugin installed, you may control the following aspec
 
 ---
 
-**< [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/02 Multi Column/03-float-callout\|Float Callout]] >**
+**< [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]]  | Next: [[docs/02 Multi Column/03-float-callout\|Float Callout]] >**
