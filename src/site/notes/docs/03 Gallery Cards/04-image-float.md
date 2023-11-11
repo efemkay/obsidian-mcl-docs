@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Gallery Cards/04-image-float.md","permalink":"/03-gallery-cards/04-image-float/","title":"Image Float (Left/Right)","noteIcon":"","updated":"2023-10-28T08:11:35.633+08:00"}
+{"dg-publish":true,"dg-path":"03 Gallery Cards/04-image-float.md","permalink":"/03-gallery-cards/04-image-float/","title":"Image Float (Left/Right)","noteIcon":"","updated":"2023-11-11T15:39:58.647+08:00"}
 ---
 
 
