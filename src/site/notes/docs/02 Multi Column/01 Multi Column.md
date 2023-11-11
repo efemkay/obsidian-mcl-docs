@@ -1,13 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/01 Multi Column.md","permalink":"/02-multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-11-11T12:27:13.390+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/01 Multi Column.md","permalink":"/02-multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-11-11T15:12:34.262+08:00"}
 ---
 
 
-# Multi Column
+## Overview
 
-> CSS snippet file: [MCL Multi Column.css](https://github.com/efemkay/obsidian-modular-css-layout/blob/main/MCL%20Multi%20Column.css)
-
-This snippet will allow you to re-shape the either callout or (unordered) list and position them side by side. See each subsection for more details on how to control that. In summary this snippet has the following features
+This module (*direct link to snippet: [MCL Multi Column.css](https://github.com/efemkay/obsidian-modular-css-layout/blob/main/MCL%20Multi%20Column.css)*) provides you the option to reshape either callout or (unordered) list and position them side by side. This will give the appearance of multi columns. See each features section below for more details on how to control that.
 
 - **[[docs/02 Multi Column/02-multi-column-callout\|MC Callout]]**  #mcl/list-card
 	- allow for multiple columns setup using either sub callouts or any of the acceptable markdown components
@@ -24,19 +22,33 @@ This snippet will allow you to re-shape the either callout or (unordered) list a
 
 ---
 
-- Multi column layout using custom callout `[!multi-column]`
-	- to be used with sub callout or codeblocks
-- Invisible container using custom callout `[!blank-container]`
-	- to be used as grouping container like a dashboard
-- Multi column bullet list at (a) note level, and (b) block level
-- Side/Floating column using callout-metadata `<left|right>`
-	- use `[!<anycallout>|<left-or-right>-<size>]` to affect only Reading View or `[!<anycallout>|float-<left-or-right>-<size>]` to also apply in Live Preview.
+## Cheat Sheet
+
+Below is a cheat sheet once you already familiar with MCL. To understand how MCL works follow the links above or go through the guided navigation below.
+
+### Multi Column (MC) Callout
+| Callout Type      | Metadata modifier                  | Sub-elements                  |
+| ----------------- | ---------------------------------- | ----------------------------- |
+| `[!multi-column]` | `no-wrap` <br>`icons` <br>`flex-h` | see [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] |
+
+### Float Callout
+| Callout Type | Metadata Modifier 1    | Metadata Modifier 2 | Metadata Modifier 3                |
+| ------------ | ---------------------- | ------------------- | ---------------------------------- |
+| any callout  | `<empty>`  <br>`float` | `left`  <br>`right` | `small`  <br>`medium`  <br>`large` |
+
+### Blank Callout
+| Callout Type      | Metadata modifier                  | Sub-elements                  |
+| ----------------- | ---------------------------------- | ----------------------------- |
+| `[!blank]` <br>`[!blank-container]` | `no-m` <br>`no-margin` | see [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] |
 
 
-> [!warning]
-> For this features to work, please make sure your Obsidian **Installer** version is at v1.1.9 or higher as per screenshot below. Note that in Obsidian the "Current version: v1.x.x" is the App version while "(Installer version: v1.x.x)" is the **Installer** version I'm referring to above.
-> 
-> ![0b2fa16129e322205240958a971b27325ed39764png 658×160 obsidianmd](https://forum.obsidian.md/uploads/default/original/3X/0/b/0b2fa16129e322205240958a971b27325ed39764.png)
+### List Column / Grid / Card
+| Type | Using Tag                                   | MD Attr plugin                                                                                                      | Frontmatter                                                                                 |
+| ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| LCol | `#mcl/list-column`                          | `two-column-list-block`  <br>`three-column-list-block`  <br>`four-column-list-block`  <br>`multi-column-list-block` | `two-column-list`  <br>`three-column-list`  <br>`four-column-list`  <br>`multi-column-list` |
+| LGrd | `#mcl/list-grid`  <br>`#mcl/list-grid-wide` | -                                                                                                                   | `two-column-grid-list`  <br>`three-column-grid-list`                                        |
+| LCrd | `#mcl/list-card`  <br>`#mcl/list-card-wide` | -                                                                                                                   | -                                                                                           |
+
 
 ---
 
