@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-11-11T12:26:35.572+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-11-11T15:35:11.944+08:00"}
 ---
 
 
@@ -29,8 +29,6 @@ Technically List Card is quite similar to List Grid but with extra customisation
 
 If you have consecutive group of list that you actually meant to be a separate lists, ensure to properly "break" it by placing either a header, horizontal line or `<br/>` tag in between
 
-> This option require your Obsidian to be installed with installer version 1.1.9 or higher (note that there are installer and app versions).
-
 Here's an example markdown:
 ```md
 - #### Core Work #mcl/list-grid
@@ -48,7 +46,7 @@ Here's an example markdown:
     - [[00 Home|Personal Goal 2]]
 ```
 
-> The number of cards can appear per row is subject to card's minimum width and note's width. Card's minimum width is adjustable via Style Settings plugin.
+> The number of column can appear per row is subject to card's minimum width and note's width. Card's minimum width is adjustable via Style Settings plugin.
 
 
 ### How To - Using frontmatter declaration
