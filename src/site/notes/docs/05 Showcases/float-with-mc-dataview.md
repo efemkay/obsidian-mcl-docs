@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"05 Showcases/float-with-mc-dataview.md","permalink":"/05-showcases/float-with-mc-dataview/","title":"Float with MC Dataview","noteIcon":"","updated":"2023-10-28T07:42:46.413+08:00"}
+{"dg-publish":true,"dg-path":"05 Showcases/float-with-mc-dataview.md","permalink":"/05-showcases/float-with-mc-dataview/","title":"Float with MC Dataview","noteIcon":"","updated":"2023-11-18T17:24:24.987+08:00"}
 ---
 
 
@@ -9,7 +9,7 @@
 
 #### Raw Markdown
 
-```md
+````md
 ---
 cssclass: text-justify, wide-page, minimal-float
 ---
@@ -54,4 +54,4 @@ Hypothesis tests with the general linear model can be made in two ways: multiva
 
 > sample text extracted from [General linear model - Wikipedia](https://en.wikipedia.org/wiki/General_linear_model) and [Linear regression - Wikipedia](https://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_linear_regression)
 ---
-```
+````
