@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-11-11T18:52:11.427+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/02-multi-column-callout.md","permalink":"/02-multi-column/02-multi-column-callout/","title":"Multi Column Callout","noteIcon":"","updated":"2023-11-18T17:18:36.116+08:00"}
 ---
 
 
@@ -42,7 +42,7 @@ Here's an example markdown
 >>> callout content
 > ```
 
-> [!info] What Counts as Column in a `[!multi-column]`?
+> [!info] What Counts as Column?
 > By default, another callout (aka sub-callout) within `[!multi-column]` is how you create a "column". But this snippets do provide a few alternatives i.e. (dataview blocks, paragraph, list block, etc.)
 >
 > List block need to have `<br/>` tag in between lists override "markdown loose list" rendering. See [[docs/06 Advanced/Examples of sub elements for MC Callout\|Examples of sub elements for MC Callout]] for more details.
