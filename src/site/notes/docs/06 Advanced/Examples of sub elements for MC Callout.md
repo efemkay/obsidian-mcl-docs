@@ -1,9 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"06 Advanced/Examples of sub elements for MC Callout.md","permalink":"/06-advanced/examples-of-sub-elements-for-mc-callout/","noteIcon":"","updated":"2023-11-11T18:56:39.819+08:00"}
+{"dg-publish":true,"dg-path":"06 Advanced/Examples of sub elements for MC Callout.md","permalink":"/06-advanced/examples-of-sub-elements-for-mc-callout/","noteIcon":"","updated":"2023-11-12T07:44:44.747+08:00"}
 ---
 
+MC Callout supports a few markdown components as the children elements. Primary element is another callout (aka sub callouts). Alternatively, you can use dataview block, blockquote, paragraph or list block. See examples below on how to use it with MC Callout.
 
 ---
+
 ### Callouts as sub elements
 ```markdown
 > [!multi-column]
