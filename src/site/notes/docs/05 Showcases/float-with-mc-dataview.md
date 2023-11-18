@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"05 Showcases/float-with-mc-dataview.md","permalink":"/05-showcases/float-with-mc-dataview/","title":"Float with MC Dataview","noteIcon":"","updated":"2023-11-18T17:24:24.987+08:00"}
+{"dg-publish":true,"dg-path":"05 Showcases/float-with-mc-dataview.md","permalink":"/05-showcases/float-with-mc-dataview/","title":"Float with MC Dataview","noteIcon":"","updated":"2023-11-18T17:27:26.953+08:00"}
 ---
 
 
@@ -9,7 +9,7 @@
 
 #### Raw Markdown
 
-````md
+```md
 ---
 cssclass: text-justify, wide-page, minimal-float
 ---
@@ -29,29 +29,31 @@ Hypothesis tests with the general linear model can be made in two ways: multiva
 ## Other Notes on Regression Model
 > [!multi-column]
 >
->  | Statistical Analysis                                                                            |
+> ` | Statistical Analysis                                                                            |
 > | ----------------------------------------------------------------------------------------------- |
 > | [[sample data A/Correlation does not imply causation.md\|Correlation does not imply causation]] |
 > | [[sample data A/Descriptive Statistics.md\|Descriptive Statistics]]                             |
 > | [[sample data A/Exploratory data analysis.md\|Exploratory data analysis]]                       |
 > 
-{ .block-language-dataview}
+{ .block-language-dataview}`
 >
->  | Regression                                                              |
+> ` | Regression                                                              |
 > | ----------------------------------------------------------------------- |
 > | [[sample data B/Generalized linear model.md\|Generalized linear model]] |
 > | [[sample data B/Logistic regression.md\|Logistic regression]]           |
 > 
-{ .block-language-dataview}
+{ .block-language-dataview}`
 >
->  | Model Validation                                                              |
+> ` | Model Validation                                                              |
 > | ----------------------------------------------------------------------------- |
 > | [[sample data C/Errors and residuals.md\|Errors and residuals]]               |
 > | [[sample data C/Goodness of fit.md\|Goodness of fit]]                         |
 > | [[sample data C/Mean and predicted response.md\|Mean and predicted response]] |
 > 
-{ .block-language-dataview}
+{ .block-language-dataview}`
 
 > sample text extracted from [General linear model - Wikipedia](https://en.wikipedia.org/wiki/General_linear_model) and [Linear regression - Wikipedia](https://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_linear_regression)
 ---
-````
+```
+
+> Mote that dataview codeblock in the example above is shown with 4 backticks to prevent it being processed by this docs site converter. when using in Obsidian, please use 3 backticks
