@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-11-11T14:58:10.472+08:00"}
+{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-11-19T09:20:57.004+08:00"}
 ---
 
 
@@ -30,7 +30,7 @@ For the initiated, applying CSS snippets in Obsidian is quite a breeze. But the 
 - ease of updating whenever there's an update from the repo
 
 So far, there are three (3) modules for MCL snippets. Check out each module's documentation to know what are the available features and the corresponding CSS file
-- [[docs/01 Wide Views/Wide Views\|Wide Views]] 
+- [[docs/01 Wide Views/01 Wide Views\|Wide Views]] 
 - [[docs/02 Multi Column/01 Multi Column\|Multi Column]] 
 - [[docs/03 Gallery Cards/01 Gallery Cards\|Gallery Cards]]  
 
