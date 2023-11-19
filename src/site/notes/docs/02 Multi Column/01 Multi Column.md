@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/01 Multi Column.md","permalink":"/02-multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-11-11T15:12:34.262+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/01 Multi Column.md","permalink":"/02-multi-column/01-multi-column/","title":"Multi Column","noteIcon":"","updated":"2023-11-19T09:22:02.967+08:00"}
 ---
 
 
@@ -26,23 +26,22 @@ This module (*direct link to snippet: [MCL Multi Column.css](https://github.com/
 
 Below is a cheat sheet once you already familiar with MCL. To understand how MCL works follow the links above or go through the guided navigation below.
 
-### Multi Column (MC) Callout
-| Callout Type      | Metadata modifier                  | Sub-elements                  |
+#### Multi Column (MC) Callout
+| Callout Type      |Metadata modifier| Sub-elements                  |
 | ----------------- | ---------------------------------- | ----------------------------- |
-| `[!multi-column]` | `no-wrap` <br>`icons` <br>`flex-h` | see [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] |
+| `[!multi-column]` |`<empty>` <br>`no-wrap` <br>`icons` <br>`flex-h`| see [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] |
 
-### Float Callout
+#### Float Callout
 | Callout Type | Metadata Modifier 1    | Metadata Modifier 2 | Metadata Modifier 3                |
 | ------------ | ---------------------- | ------------------- | ---------------------------------- |
-| any callout  | `<empty>`  <br>`float` | `left`  <br>`right` | `small`  <br>`medium`  <br>`large` |
+| any callout  | `<empty>`  <br>`float` | `left`  <br>`right` |`<empty>` <br>`small` <br>`medium` <br>`large`|
 
-### Blank Callout
+#### Blank Callout
 | Callout Type      | Metadata modifier                  | Sub-elements                  |
 | ----------------- | ---------------------------------- | ----------------------------- |
-| `[!blank]` <br>`[!blank-container]` | `no-m` <br>`no-margin` | see [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] |
+| `[!blank]` <br>`[!blank-container]` |`<empty>` <br>`no-margin` | see [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] |
 
-
-### List Column / Grid / Card
+#### List Column / Grid / Card
 | Type | Using Tag                                   | MD Attr plugin                                                                                                      | Frontmatter                                                                                 |
 | ---- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | LCol | `#mcl/list-column`                          | `two-column-list-block`  <br>`three-column-list-block`  <br>`four-column-list-block`  <br>`multi-column-list-block` | `two-column-list`  <br>`three-column-list`  <br>`four-column-list`  <br>`multi-column-list` |
@@ -52,4 +51,4 @@ Below is a cheat sheet once you already familiar with MCL. To understand how MCL
 
 ---
 
-**< [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] | Next: [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]] >** 
+**< [[docs/01 Wide Views/01 Wide Views\|Wide Views]] | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] | Next: [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]] >** 
