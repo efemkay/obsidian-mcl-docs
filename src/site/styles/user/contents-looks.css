@@ -20,3 +20,8 @@
   code span.token.content {
     font-size: var(--code-size)
   }
+
+/* === Video dimension === */
+  iframe {
+    max-width: 100%;
+  }
