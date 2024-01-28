@@ -1,22 +1,19 @@
 ---
-{"dg-publish":true,"dg-path":"03 Gallery Cards/02-image-gallery.md","permalink":"/03-gallery-cards/02-image-gallery/","title":"Image Gallery","noteIcon":"","updated":"2023-11-11T15:40:07.831+08:00"}
+{"dg-publish":true,"dg-path":"03 Gallery Cards/02-image-gallery.md","permalink":"/03-gallery-cards/02-image-gallery/","title":"Image Gallery","noteIcon":"","updated":"2024-02-08"}
 ---
 
 
 ## Overview
+Image Gallery layout will allow you to create masonry like image gallery layout by placing image embed (i.e. `![[path/to/image.jpg]]`) in successive row of line. You can do this either by using callout metadata or defining the properties `cssclasses: image-gallery`
 
-Image Gallery layout will allow you to create masonry like image gallery layout by placing image embed (i.e. `![[path/to/image.jpg]]`) in successive row of line. There are 2 different ways you can do so i.e.
-
-1. Using Obsidian Callout (by specifying the callout metadata `gallery`)
-2. Using frontmatter (by specifying `cssclass: image-gallery`)
-
+![image-gallery-langkawi-1.png](/img/user/image-gallery-langkawi-1.png)
 
 > [!warning] Markdown image embed (i.e. `![](path/to/image.jpg)`) not supported
 >
 > Due to how Obsidian renders markdown image embed, I currently cannot implement Image Gallery using such syntax. So for this part, always use wikilink embed (i.e. `![[path/to/image.jpg]]`)
 
 
-### How to Use -- with Callout
+### Using callout metadata
 
 - Insert callout (it will work with any callout) and enter `gallery` in the callout metadata. E.g.  `> [!info|gallery]`
 - Insert transcluded/embedded images. Add empty lines in between the images to create new row. Images "grouped" between empty lines will be stacked side by side
@@ -38,15 +35,16 @@ Image Gallery layout will allow you to create masonry like image gallery layout 
 ![](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/gallery-callout-langkawi.png)
 
 
-### How to Use -- with Frontmatter `cssClass: image-gallery`
+### Using properties declaration
+Alternative to using callout metadata, you can create image gallery in your note by defining `image-gallery` in the note's `cssclasses` properties. Then insert embedded images (i.e. `![[path/to/image.jpg]]`). Put next to each other (with single spacing) for same row placement. Add single empty line to create new row. Example on raw markdown is shown below.
 
-- Specify `cssClass: image-gallery` at the frontmatter *(top of your markdown notes fenced by two three-dashes `---`, see example below)*
-- Insert embedded images (i.e. `![[path/to/image.jpg]]`). Put next to each other (with single spacing) for same row placement. Add single empty line to create new row.
+> [!info] Visit Obsidian's Help (link here [Properties - Obsidian Help](https://help.obsidian.md/Editing+and+formatting/Properties)) to know how to add properties to your note
 
 
-```markdown
+```md
 ---
-cssClass: image-gallery
+cssclasses:
+  - image-gallery
 ---
 
 ![[path/to/pic1.jpg]] ![[path/to/pic2.jpg]]
@@ -55,10 +53,10 @@ cssClass: image-gallery
 
 ```
 
-> Note that with frontmatter declaration, you have to put the image embed syntax on same line if you want it to stack side by side in LP. Reading View is more robust and is okay with single line break for same row and empty line for creating new row
->
+Note that with frontmatter declaration, you have to put the image embed syntax on same line if you want it to stack side by side in LP. Reading View is more robust and is okay with single line break for same row and empty line for creating new row
+
 > **Syntax below only works with Reading View**
-> ```markdown
+> ```md
 > ---
 > cssClass: image-gallery
 > ---
@@ -78,6 +76,17 @@ cssClass: image-gallery
 
 ![](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/gallery-cssclass-langkawi.png)
 
+## Additional Controls
+
+If you have Style Settings plugin installed, you may control the following aspects (go to `Style Settings > Modular CSS Layout - Multi Column > Multi Column Callout`)
+- **Hide Strange New World Indicators in Image Gallery**
+	- Hide the SNW backlinks count indicator. Useful if you normally link to the same images in other notes as well
+- **Gap Between Images**
+	- Adjust the gap between images in the gallery. Default is 5px
+- **Max Height for Images**
+	- Set the maximum height for images in gallery can be. Aspect ratio is respected.
+- **Max Width for Images**
+	- Set the maximum width for images in gallery can be. Aspect ratio is respected.
 
 ## Credits
 
