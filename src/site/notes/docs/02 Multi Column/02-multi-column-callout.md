@@ -16,7 +16,7 @@ Here's a quick steps to create the Multi Column Callout. It's best to start with
 2. Wrap / encapsulate those sub-callouts with `[!multi-column]` callout
 
 Here's an example markdown
-```
+```md
 > [!multi-column]
 >
 >> [!note]+ Work
@@ -29,12 +29,11 @@ Here's an example markdown
 >> your notes or lists here. using markdown formatting
 ```
 
-
 > [!warning] Be aware of angle bracket (">") count when separating sub callouts
 > 
 > Note that when you insert callout within callout, the line separating the callouts should only use single angle bracket (">"). Example below
 > 
-> ```
+> ```md
 >>> [!callout]
 >>> callout content (note that below this line, only one angle bracket)
 >>
@@ -42,14 +41,15 @@ Here's an example markdown
 >>> callout content
 > ```
 
-> [!info] What Counts as Column?
-> By default, another callout (aka sub-callout) within `[!multi-column]` is how you create a "column". But this snippets do provide a few alternatives i.e. (dataview blocks, paragraph, list block, etc.)
->
-> List block need to have `<br/>` tag in between lists override "markdown loose list" rendering. See [[docs/06 Advanced/Examples of sub elements for MC Callout\|Examples of sub elements for MC Callout]] for more details.
+What Counts as Column? By default, another callout (aka sub-callout) within `[!multi-column]` is how you create a "column". But this snippets do provide a few alternatives i.e. (dataview blocks, paragraph, list block, etc.). List block need to have `<br/>` tag in between lists override "markdown loose list" rendering, or at least changing the bullet symbols. See [[docs/06 Advanced/Examples of sub elements for MC Callout\|Examples of sub elements for MC Callout]] for more details.
 
-> [!info] Nested Multi Column Callout
-> 
-> With the release of 0.9.7, you can now use nested Multi Column Callout. See [[docs/06 Advanced/Using MC Callout within MC Callout\|Using MC Callout within MC Callout]]  for more details.
+With the release of 0.9.7, you can now use nested Multi Column Callout. See [[docs/06 Advanced/Using MC Callout within MC Callout\|Using MC Callout within MC Callout]]  for more details.
+
+> [!info] Understanding callout type and callout metadata
+>
+> - `> [!<callout-type>]` e.g. `> [!Summary]`
+> - `> [!<callout-type>|<callout-metadata>]` e.g. `> [!Summary|wide-2]`
+
 
 ## Additional Controls
 
@@ -67,22 +67,18 @@ If you have Style Settings plugin installed, you may control the following aspec
 - Adjust gap between sub-callout and margin between sub-callout
 
 
-> [!info] Understanding callout type and callout metadata
->
-> - `> [!<callout-type>]` e.g. `> [!Summary]`
-> - `> [!<callout-type>|<callout-metadata>]` e.g. `> [!Summary|wide-2]`
-
 ## Examples
 
 #### Standard Multi-Column Callout
 
 > ![](/img/user/docs/assets/mc-callout-standard.png)
 
-```
+```md
 > [!multi-column]
 >
 >> [!note]+ Use Case
 >> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+>> 
 >> ##### User Case Background
 >> Vitae nunc sed velit dignissim sodales. In cursus turpis massa tincidunt dui ut ornare lectus.
 >
