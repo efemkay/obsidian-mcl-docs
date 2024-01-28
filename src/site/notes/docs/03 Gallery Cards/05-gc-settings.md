@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Gallery Cards/05-gc-settings.md","permalink":"/03-gallery-cards/05-gc-settings/","title":"Gallery Cards Style Settings","noteIcon":"","updated":"2023-10-27T22:54:12.861+08:00"}
+{"dg-publish":true,"dg-path":"03 Gallery Cards/05-gc-settings.md","permalink":"/03-gallery-cards/05-gc-settings/","title":"Gallery Cards Style Settings","noteIcon":""}
 ---
 
 
