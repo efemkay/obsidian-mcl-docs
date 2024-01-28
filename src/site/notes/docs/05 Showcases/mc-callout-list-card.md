@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"05 Showcases/mc-callout-list-card.md","permalink":"/05-showcases/mc-callout-list-card/","title":"MC Callout and List Card","noteIcon":"","updated":"2023-10-28T07:42:01.346+08:00"}
+{"dg-publish":true,"dg-path":"05 Showcases/mc-callout-list-card.md","permalink":"/05-showcases/mc-callout-list-card/","title":"MC Callout and List Card","noteIcon":""}
 ---
 
 
