@@ -71,8 +71,9 @@ MC Callout supports a few markdown components as the children elements. Primary 
 ---
 
 ### List items as sub elements
-`Markdown recognise two list block one after another (even with multiple empty lines) as just single list block. The workaround is to have <br> tag in the middle`
+Markdown recognise two list block one after another (even with multiple empty lines) as just single list block. There are two workarounds...
 
+**_insert `<br>` tag in the middle_**
 ```markdown
 > [!multi-column]
 > 
@@ -92,3 +93,21 @@ MC Callout supports a few markdown components as the children elements. Primary 
 > 	- sub list
 > - list 1 (a)
 ```
+
+**_change or alternate the bullet symbol_**
+```markdown
+> [!multi-column]
+> 
+> - list 1
+> 	- sub list
+> - list 1 (a)
+> 
+> * list 2
+> 	* sub list
+> * list 1 (a)
+> 
+> - list 3
+> 	- sub list
+> - list 1 (a)
+```
+
