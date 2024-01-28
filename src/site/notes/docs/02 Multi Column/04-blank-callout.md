@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/04-blank-callout.md","permalink":"/02-multi-column/04-blank-callout/","title":"Blank Callout","noteIcon":"","updated":"2023-11-09T22:53:46.078+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/04-blank-callout.md","permalink":"/02-multi-column/04-blank-callout/","title":"Blank Callout","noteIcon":""}
 ---
 
 
