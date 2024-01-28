@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 Examples/text block with picture on the left.md","permalink":"/04-examples/text-block-with-picture-on-the-left/","noteIcon":"","updated":"2024-01-28T10:51:09.621+08:00"}
+{"dg-publish":true,"dg-path":"04 Examples/text block with picture on the left.md","permalink":"/04-examples/text-block-with-picture-on-the-left/","noteIcon":""}
 ---
 
 
