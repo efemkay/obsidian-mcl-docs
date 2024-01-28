@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Other Resources.md","permalink":"/03-other-resources/","title":"Other Resources","noteIcon":"","updated":"2023-11-18T17:15:06.463+08:00"}
+{"dg-publish":true,"dg-path":"03 Other Resources.md","permalink":"/03-other-resources/","title":"Other Resources","noteIcon":""}
 ---
 
 
