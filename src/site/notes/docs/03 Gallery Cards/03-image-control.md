@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"03 Gallery Cards/03-image-control.md","permalink":"/03-gallery-cards/03-image-control/","title":"Image Control","noteIcon":"","updated":"2023-10-28T08:10:40.721+08:00"}
+{"dg-publish":true,"dg-path":"03 Gallery Cards/03-image-control.md","permalink":"/03-gallery-cards/03-image-control/","title":"Image Control","noteIcon":""}
 ---
 
 
