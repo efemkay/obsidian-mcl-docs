@@ -31,8 +31,8 @@ Hypothesis tests with the general linear model can be made in two ways: multiva
 >
 > ` | Statistical Analysis                                                                            |
 > | ----------------------------------------------------------------------------------------------- |
-> | [[sample data A/Correlation does not imply causation.md\|Correlation does not imply causation]] |
 > | [[sample data A/Descriptive Statistics.md\|Descriptive Statistics]]                             |
+> | [[sample data A/Correlation does not imply causation.md\|Correlation does not imply causation]] |
 > | [[sample data A/Exploratory data analysis.md\|Exploratory data analysis]]                       |
 > 
 { .block-language-dataview}`
