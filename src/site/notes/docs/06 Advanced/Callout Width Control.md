@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 Advanced/Callout Width Control.md","permalink":"/06-advanced/callout-width-control/","noteIcon":"","updated":"2023-11-11T18:00:03.968+08:00"}
+{"dg-publish":true,"dg-path":"06 Advanced/Callout Width Control.md","permalink":"/06-advanced/callout-width-control/","noteIcon":""}
 ---
 
 When using a callout for [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]], [[docs/02 Multi Column/03-float-callout\|Float Callout]] or [[docs/02 Multi Column/04-blank-callout\|Blank Callout]], you may use the width modifier below to have greater control on the callout width. There are three (3) approach to define the width i.e. fixed (pixel-based), responsive via percentage and responsive via dynamic width.
