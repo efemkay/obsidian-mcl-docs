@@ -1,3 +1,12 @@
+
+/* === (right) Sidebar === */
+  .sidebar {
+    height: unset;
+  }
+  .backlink-list {
+    max-height: unset;
+  }
+
 /* === Code block === */
 
   body {
