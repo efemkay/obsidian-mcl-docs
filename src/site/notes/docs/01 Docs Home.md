@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":"","updated":"2023-11-19T20:12:35.950+08:00"}
+{"dg-publish":true,"dg-path":"01 Docs Home.md","permalink":"/01-docs-home/","title":"Home","pinned":true,"tags":["gardenEntry"],"noteIcon":""}
 ---
 
 
