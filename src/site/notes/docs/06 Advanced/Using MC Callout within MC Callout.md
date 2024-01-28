@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 Advanced/Using MC Callout within MC Callout.md","permalink":"/06-advanced/using-mc-callout-within-mc-callout/","noteIcon":"","updated":"2023-11-11T18:30:45.251+08:00"}
+{"dg-publish":true,"dg-path":"06 Advanced/Using MC Callout within MC Callout.md","permalink":"/06-advanced/using-mc-callout-within-mc-callout/","noteIcon":""}
 ---
 
 With the release of [0.9.7 (github.com)](https://github.com/efemkay/obsidian-modular-css-layout/releases/tag/0.9.7) MCL now supports having `[!multi-column]` callout inside another `[!multi-column]` callout. That would make the example below possible.
