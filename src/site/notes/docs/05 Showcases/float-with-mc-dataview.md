@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"05 Showcases/float-with-mc-dataview.md","permalink":"/05-showcases/float-with-mc-dataview/","title":"Float with MC Dataview","noteIcon":"","updated":"2023-11-18T17:27:26.953+08:00"}
+{"dg-publish":true,"dg-path":"05 Showcases/float-with-mc-dataview.md","permalink":"/05-showcases/float-with-mc-dataview/","title":"Float with MC Dataview","noteIcon":""}
 ---
 
 
