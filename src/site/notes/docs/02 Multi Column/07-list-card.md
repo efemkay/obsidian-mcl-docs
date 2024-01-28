@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/07-list-card.md","permalink":"/02-multi-column/07-list-card/","title":"List Card","noteIcon":"","updated":"2023-11-11T12:26:49.717+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/07-list-card.md","permalink":"/02-multi-column/07-list-card/","title":"List Card","noteIcon":"","updated":"2024-01-28"}
 ---
 
 
@@ -9,18 +9,11 @@ List Card layout will allow you to create multi column and multi row layout usin
 
 ![](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/hero-mc-list-column-grid-card.png)
 
-> [!info] Making it work in Live Preview
+> [!important] Making it work in Live Preview
 >
-> The column layout will only work on Reading View. If you want to make it work on Live Preview, there are a few options. You can encapsulate the list block in MCL's `[blank-container]` callout
->
-> ...
->
-> **There's no Markdown Attributes plugin approach**
->
-> There are no Markdown Attributes approach due to limitation in specifying at the end of list block
+> The column layout will only work on Reading View. If you want to make it work on Live Preview, there are a few options. You can encapsulate the list block in MCL's `[blank-container]` callout, or alternatively, using Custom Classes plugin, prepend the list block with any class e.g. (`class: none`)
 
-
-### How to Use `#mcl/list-card`
+### Using hashtag i.e. `#mcl/list-card`
 
 Technically List Card is quite similar to List Grid but with extra customisation to make it card like. In order to enable it, place the hashtag anywhere in the top-level list items (preferably in the first bullet for easy identification). There are two options for List Card i.e.
 - `#mcl/list-card` - default minimum width 250px
@@ -28,7 +21,6 @@ Technically List Card is quite similar to List Grid but with extra customisation
 
 If you have consecutive group of list that you actually meant to be a separate lists, ensure to properly "break" it by placing either a header, horizontal line or `<br/>` tag in between
 
-> This option require your Obsidian to be installed with installer version 1.1.9 or higher (note that there are installer and app versions).
 
 Here's an example markdown:
 ```md
@@ -48,6 +40,12 @@ Here's an example markdown:
 ```
 
 > The number of cards can appear per row is subject to card's minimum width and note's width. Card's minimum width is adjustable via Style Settings plugin.
+
+
+> [!info] There's no Markdown Attributes plugin nor properties declaration approach
+>
+> There are no Markdown Attributes approach due to limitation in specifying at the end of list block, and there's no properties declaration approach as it will be messy when all lists becomes List Card
+
 
 ## Additional Controls
 If you have Style Settings plugin installed, you may control the following aspects (go to `Style Settings > Modular CSS Layout - Multi Column > List Grid and List Card`)
