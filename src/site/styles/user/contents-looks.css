@@ -1,0 +1,13 @@
+/* === Code block === */
+
+  body {
+    --code-background: var(--background-secondary);
+  }
+
+  .markdown-rendered pre code {
+    white-space: pre
+  }
+
+  code span.token.content {
+    font-size: var(--code-size)
+  }
