@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2023-11-11T15:35:11.944+08:00"}
+{"dg-publish":true,"dg-path":"02 Multi Column/06-list-grid.md","permalink":"/02-multi-column/06-list-grid/","title":"List Grid","noteIcon":"","updated":"2024-01-28"}
 ---
 
 
@@ -11,18 +11,11 @@ List Grid layout will allow you to create multi column and multi row layout usin
 ![](https://raw.githubusercontent.com/efemkay/obsidian-modular-css-layout/main/docs/assets/hero-mc-list-column-grid-card.png)
 
 
-> [!info] Making it work in Live Preview
+> [!important] Making it work in Live Preview
 >
-> The column layout will only work on Reading View. If you want to make it work on Live Preview, there are a few options. You can encapsulate the list block in MCL's `[blank-container]` callout
->
-> ...
->
-> **There's no Markdown Attributes plugin approach**
->
-> There are no Markdown Attributes approach due to limitation in specifying at the end of list block
+> The column layout will only work on Reading View. If you want to make it work on Live Preview, there are a few options. You can encapsulate the list block in MCL's `[blank-container]` callout, or alternatively, using Custom Classes plugin, prepend the list block with any class e.g. (`class: none`)
 
-
-### How To - Using hashtag i.e. `#mcl/list-grid`
+### Using hashtag i.e. `#mcl/list-grid`
 Technically List Card is quite similar to List Grid but with extra customisation to make it card like. In order to enable it, place the hashtag anywhere in the top-level list items (preferably in the first bullet for easy identification). There are two options for List Card i.e.
 - `#mcl/list-grid` - default minimum width 250px
 - `#mcl/list-grid-wide` - default minimum width 350px
@@ -46,10 +39,10 @@ Here's an example markdown:
     - [[00 Home|Personal Goal 2]]
 ```
 
-> The number of column can appear per row is subject to card's minimum width and note's width. Card's minimum width is adjustable via Style Settings plugin.
+> The number of grid column can appear per row is subject to card's minimum width and note's width. Card's minimum width is adjustable via Style Settings plugin.
 
 
-### How To - Using frontmatter declaration
+### Using properties declaration
 Using this approach, you will have to specify the css for the column type at the frontmatter (it must be located at the very top of your document, wrapped by two sets of 3 dashes i.e. `---`, see example below for better understanding). MCL provides the following CSS classes
 - `two-column-grid-list`
 - `three-column-grid-list`
@@ -74,6 +67,10 @@ cssClass: two-column-grid-list
     - [[00 Home|Personal Goal 1]]
     - [[00 Home|Personal Goal 2]]
 ```
+
+> [!info] There's no Markdown Attributes plugin approach
+>
+> There are no Markdown Attributes approach due to limitation in specifying at the end of list block
 
 
 ## Additional Controls
