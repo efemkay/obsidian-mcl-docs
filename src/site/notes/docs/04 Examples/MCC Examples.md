@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"04 Examples/MCC Examples.md","permalink":"/04-examples/mcc-examples/","title":"Multi Column Callout","noteIcon":"","updated":"2023-10-28T09:04:00.731+08:00"}
+{"dg-publish":true,"dg-path":"04 Examples/MCC Examples.md","permalink":"/04-examples/mcc-examples/","title":"Multi Column Callout","noteIcon":""}
 ---
 
 
