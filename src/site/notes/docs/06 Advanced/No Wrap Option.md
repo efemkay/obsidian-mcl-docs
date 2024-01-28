@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"06 Advanced/No Wrap Option.md","permalink":"/06-advanced/no-wrap-option/","noteIcon":"","updated":"2023-11-11T18:00:19.360+08:00"}
+{"dg-publish":true,"dg-path":"06 Advanced/No Wrap Option.md","permalink":"/06-advanced/no-wrap-option/","noteIcon":""}
 ---
 
 ### No Wrap Option for `[!multi-column]`
