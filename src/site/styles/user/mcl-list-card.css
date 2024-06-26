@@ -6,7 +6,7 @@ body {
     --mcl-card-border-color: var(--background-modifier-border);
     --list-grid-min-width: 200px;
 }
-a[data-content="#mcl/list-card"] { display: none; }
+:not(code) > a[data-content="#mcl/list-card"] { display: none; }
 ul:has([data-content="#mcl/list-card"]) {
     display: grid; grid-template-columns: repeat(auto-fit,minmax(var(--list-grid-min-width),1fr));
     padding-left: 0;
