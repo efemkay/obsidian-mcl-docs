@@ -13,5 +13,6 @@
 
 
 ## YouTube videos from others
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/gYN4Nt7AuQk?si=7PsjqRzLUUL3wMp9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 - <iframe width="560" height="315" src="https://www.youtube.com/embed/uSCsWppTFHs?si=RkD6JWF8fjXEhNgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 - <iframe width="560" height="315" src="https://www.youtube.com/embed/sEogbW4UGYo?si=n19komqkZtJHlUkK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
