@@ -32,22 +32,22 @@ Hypothesis tests with the general linear model can be made in two ways: multiva
 > ` | Statistical Analysis                                                                            |
 > | ----------------------------------------------------------------------------------------------- |
 > | [[sample data A/Correlation does not imply causation.md\|Correlation does not imply causation]] |
-> | [[sample data A/Descriptive Statistics.md\|Descriptive Statistics]]                             |
 > | [[sample data A/Exploratory data analysis.md\|Exploratory data analysis]]                       |
+> | [[sample data A/Descriptive Statistics.md\|Descriptive Statistics]]                             |
 > 
 { .block-language-dataview}`
 >
 > ` | Regression                                                              |
 > | ----------------------------------------------------------------------- |
-> | [[sample data B/Generalized linear model.md\|Generalized linear model]] |
 > | [[sample data B/Logistic regression.md\|Logistic regression]]           |
+> | [[sample data B/Generalized linear model.md\|Generalized linear model]] |
 > 
 { .block-language-dataview}`
 >
 > ` | Model Validation                                                              |
 > | ----------------------------------------------------------------------------- |
-> | [[sample data C/Errors and residuals.md\|Errors and residuals]]               |
 > | [[sample data C/Goodness of fit.md\|Goodness of fit]]                         |
+> | [[sample data C/Errors and residuals.md\|Errors and residuals]]               |
 > | [[sample data C/Mean and predicted response.md\|Mean and predicted response]] |
 > 
 { .block-language-dataview}`

@@ -32,9 +32,9 @@ Below is a cheat sheet once you already familiar with MCL. To understand how MCL
 | `[!multi-column]` |`<empty>` <br>`no-wrap` <br>`icons` <br>`flex-h`| see [[docs/06 Advanced/Callout Width Control\|Callout Width Control]] |
 
 #### Float Callout
-| Callout Type | Metadata Modifier 1    | Metadata Modifier 2 | Metadata Modifier 3                |
-| ------------ | ---------------------- | ------------------- | ---------------------------------- |
-| any callout  | `<empty>`  <br>`float` | `left`  <br>`right` |`<empty>` <br>`small` <br>`medium` <br>`large`|
+| Callout Type | Metadata Modifier 1    | Metadata Modifier 2 | Metadata Modifier 3                            |
+| ------------ | ---------------------- | ------------------- | ---------------------------------------------- |
+| any callout  | `<empty>`  <br>`float` | `left`  <br>`right` | `<empty>` <br>`small` <br>`medium` <br>`large` |
 
 #### Blank Callout
 | Callout Type      | Metadata modifier                  | Sub-elements                  |
@@ -51,4 +51,4 @@ Below is a cheat sheet once you already familiar with MCL. To understand how MCL
 
 ---
 
-**< [[docs/01 Wide Views/01 Wide Views\|Wide Views]] | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] | Next: [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]] >** 
+**< [[docs/01 Wide Views/03 Wide Blocks\|Wide Blocks]] | [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] | Next: [[docs/02 Multi Column/02-multi-column-callout\|MC Callout]] >** 

@@ -2,45 +2,37 @@
 {"dg-publish":true,"dg-path":"01 Wide Views/01 Wide Views.md","permalink":"/01-wide-views/01-wide-views/","title":"Wide Views","noteIcon":""}
 ---
 
+## Overview
 
-## Understanding the snippet
-- CSS snippet file: [MCL Wide Views.css](https://github.com/efemkay/obsidian-modular-css-layout/blob/main/MCL%20Wide%20Views.css)
-- This snippet will provide the following features
-	- Wide views using YAML `cssClass: wide-<page/blocks>` for applying to a specific individual note
-	- Wide views using vault-wide toggle for applying to all notes in your vault
-		- will require Style Settings plugin to enable the feature
+This module (*direct link to snippet: [MCL Wide Views.css](https://github.com/efemkay/obsidian-modular-css-layout/blob/main/MCL%20Wide%20Views.css)*) provides you the option to expand your note's page or block (limited to dataview, table and/or callout blocks) to be wider than your define readable line width. This way certain contents can be given more "breathing space". See each features section below for more details on how to control that.
 
----
+- **[[docs/01 Wide Views/02 Wide Page\|Wide Page]]**  #mcl/list-card
+	- allow specific note to have full screen width even with RLL enabled in the Obsidian settings
+- **[[docs/01 Wide Views/03 Wide Blocks\|Wide Blocks]]** 
+	- allow specific note to have specific block to be wider than the note's readable line length
 
-## Using YAML (specifying `cssClass`)
 
-- CSS snippet: `MCL Wide Views.css`
-- Custom CSS class available
-	- `wide-page`
-	- `wide-dataview` -- require Contextual Typography plugin
-	- `wide-table` -- require Contextual Typography plugin
-	- `wide-backlinks`
-
-This snippet allow you to use Obsidian CSS class helper to enable any of the wide views. To use it, add the helper class in the YAML (frontmatter) of your note (which must be at the top of the note) like below.
-
-```markdown
----
-cssClass: wide-page
----
-
-<the rest of your note>
-```
-
-For wide-dataview and wide-table, you will need to install [Contextual Typography](https://github.com/mgmeyers/obsidian-contextual-typography) plugin.
-
-## Example
-
-<img src="https://user-images.githubusercontent.com/42369515/163697717-911d36b3-f505-49c2-803b-775f1d7fae9a.png" height="350px">
 
 ---
 
-- Using Style Settings toggle (affecting vault wide)
+## Cheat Sheet
+
+Below is a cheat sheet once you already familiar with MCL. To understand how MCL works follow the links above or go through the guided navigation below.
+
+#### Wide Page
+
+| Block Type | Properties setup        |
+| ---------- | ----------------------- |
+| Wide Page  | `cssclasses: wide-page` |
+
+#### Wide Blocks
+
+| Block Type    | Properties setup            |
+| ------------- | --------------------------- |
+| Wide Dataview | `cssclasses: wide-dataview` |
+| Wide Table    | `cssclasses: wide-table`    |
+| Wide Callout  | `cssclasses: wide-callout`  |
 
 ---
 
-**< [[docs/02 Installation\|Installation]] | Next: [[docs/02 Multi Column/01 Multi Column\|Multi Column Home]] >** 
+**< [[docs/02 Installation\|Installation]] | Next: [[docs/01 Wide Views/02 Wide Page\|Wide Page]] >** 
